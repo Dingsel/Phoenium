@@ -1,0 +1,64 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"category": "equipment",
+			"identifier": "varo:ice_wand"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "§6§lIce Wand\n§r§6Ability: FLASH FROST §e§lRIGHT CLICK\n§r§7Fire a§2 Flash Frost§7 to slow down Enemys\n§8Mana Cost: §210\n§8Cooldown: §23.0s\n\n§l§6LEGENDARY ITEM"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.sword"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:damage": 1,
+			"minecraft:icon": {
+				"texture": "varo_ice_wand"
+			},
+			"minecraft:can_destroy_in_creative": false,
+			"minecraft:weapon": {},
+			"tag:minecraft:is_sword": {},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "ice_wand_trigger",
+					"condition": "query.scoreboard('mana')>=10"
+				}
+			},
+			"minecraft:cooldown": {
+				"duration": 3,
+				"category": "ice_wand"
+			}
+		},
+		"events": {
+			"ice_wand_trigger": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"function ice_wand_trigger"
+							]
+						},
+						"shoot": {
+							"projectile": "varo:flash_frost_projectile",
+							"launch_power": 1
+						},
+						"condition": "query.scoreboard('mana')>=10"
+					},
+					{
+						"condition": "query.scoreboard('mana')<10",
+						"run_command": {
+							"command": [
+								"tellraw @s {\"rawtext\":[{\"text\":\"§cYou don't have enoughe Mana.\"}]}",
+								"playsound mob.endermen.portal @s ~ ~ ~ 999 0.5 999"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

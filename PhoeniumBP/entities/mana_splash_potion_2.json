@@ -1,0 +1,64 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "varo:mana_splash_potion_2_projectile",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false,
+			"runtime_identifier": "minecraft:splash_potion"
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"width": 0.25,
+				"height": 0.25
+			},
+			"minecraft:projectile": {
+				"on_hit": {
+					"remove_on_hit": {},
+					"definition_event": {
+						"splash_area": 2,
+						"event_trigger": {
+							"event": "mana_splashed"
+						},
+						"affect_splash_area": true,
+						"affect_target": true,
+						"affect_shooter": true
+					},
+					"spawn_aoe_cloud": {
+						"radius": 2,
+						"color": [
+							1
+						],
+						"duration": 2,
+						"potion": 0,
+						"affect_owner": true
+					}
+				},
+				"power": 0.5,
+				"gravity": 0.05,
+				"angle_offset": -20,
+				"hit_sound": "glass"
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			}
+		},
+		"events": {
+			"mana_splashed": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"function mana_splashed_2"
+							]
+						}
+					}
+				]
+			}
+		},
+		"component_groups": {}
+	}
+}

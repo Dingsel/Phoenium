@@ -1,0 +1,20 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.fly_ride.rider": {
+			"initial_state": "rides",
+			"states": {
+				"rides": {
+					"on_entry": [
+						"/event entity @e[type=varo:fly_ride] del_ride"
+					],
+					"transitions": [
+						{
+							"rides": "query.has_rider"
+						}
+					]
+				}
+			}
+		}
+	}
+}

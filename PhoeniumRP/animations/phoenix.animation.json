@@ -1,0 +1,148 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.phoenix.setup": {
+			"loop": true,
+			"bones": {
+				"boddy": {
+					"rotation": [
+						0,
+						0,
+						30
+					],
+					"position": [
+						1.9,
+						-1,
+						0
+					]
+				},
+				"head2": {
+					"rotation": [
+						0,
+						180,
+						5
+					],
+					"position": [
+						4.7,
+						-4.75,
+						-4
+					]
+				},
+				"head": {
+					"rotation": [
+						-180,
+						2.5,
+						270
+					],
+					"position": [
+						10.3,
+						-4.8,
+						0
+					]
+				},
+				"wing": {
+					"rotation": [
+						0,
+						0,
+						27.5
+					],
+					"position": [
+						4.5,
+						-3,
+						-49
+					]
+				},
+				"w3": {
+					"position": [
+						0,
+						0,
+						0
+					]
+				}
+			}
+		},
+		"animation.phoenix.fly": {
+			"animation_length": 1.56,
+			"bones": {
+				"Boddy": {
+					"rotation": {
+						"0.4": [
+							52.49902,
+							0,
+							0
+						],
+						"1.04": [
+							52.5,
+							0,
+							0
+						]
+					},
+					"position": [
+						0,
+						0,
+						17
+					]
+				},
+				"firstpart": {
+					"rotation": [
+						0,
+						0,
+						0
+					]
+				},
+				"Head": {
+					"rotation": [
+						-52.5,
+						0,
+						0
+					],
+					"position": {
+						"1.0": [
+							-0.2,
+							3.8,
+							-0.7
+						],
+						"1.04": [
+							0,
+							4,
+							-0.6
+						]
+					}
+				},
+				"tail": {
+					"rotation": {
+						"0.4": [
+							-52.22406,
+							1.42172,
+							-2.01371
+						],
+						"1.04": [
+							-50,
+							0,
+							0
+						]
+					},
+					"position": [
+						0,
+						-5,
+						-1
+					]
+				},
+				"WalkThingLeft": {
+					"rotation": [
+						37.5,
+						0,
+						0
+					]
+				},
+				"WalkThing2Right": {
+					"rotation": [
+						38,
+						0,
+						0
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,52 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "varo:mana_splash_potion_2"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.snowball"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:use_duration": 1.6,
+			"minecraft:icon": {
+				"texture": "varo_mana_splash_potion_2"
+			},
+			"minecraft:throwable": {
+				"do_swing_animation": true
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "mana_splashed_2_check"
+				}
+			}
+		},
+		"events": {
+			"mana_splashed_2_check": {
+				"sequence": [
+					{
+						"shoot": {
+							"projectile": "varo:mana_splash_potion_2_projectile",
+							"launch_power": 1
+						},
+						"condition": "query.scoreboard('mastery')>99",
+						"run_command": {
+							"command": [
+								"clear @s varo:mana_splash_potion_2"
+							]
+						}
+					},
+					{
+						"condition": "query.scoreboard('mastery')<100",
+						"run_command": {
+							"command": [
+								"tell @s §1I need to be a §l§3Mage§r§1 to use this potion."
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

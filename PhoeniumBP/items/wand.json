@@ -1,0 +1,38 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"category": "equipment",
+			"identifier": "varo:wand"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.sword"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:damage": 1,
+			"minecraft:icon": {
+				"texture": "varo_wand"
+			},
+			"minecraft:can_destroy_in_creative": false,
+			"minecraft:weapon": {},
+			"tag:minecraft:is_sword": {},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "jerry_trigger",
+					"condition": "query.scoreboard('mana')>=1"
+				}
+			}
+		},
+		"events": {
+			"jerry_trigger": {
+				"run_command": {
+					"command": [
+						"function jerry_trigger"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,86 @@
+{
+	"varo:phoenium_ore": {
+		"textures": "varo_phoenium_ore",
+		"sound": "stone"
+	},
+	"varo:phoenium_grass": {
+		"textures": "varo_phoenium_grass",
+		"sound": "grass"
+	},
+	"varo:summoning_eye": {
+		"textures": "varo_summoning_eye",
+		"sound": "stone"
+	},
+	"varo:lilium": {
+		"textures": {
+			"up": "varo_lilium",
+			"down": "netherrack",
+			"side": "varo_liliumside"
+		},
+		"sound": "grass"
+	},
+	"varo:liliumside": {
+		"textures": "varo_liliumside",
+		"sound": "stone"
+	},
+	"varo:lilium_log_top": {
+		"textures": {
+			"up": "varo_lilium_log_top",
+			"side": "varo_lilium_log_side",
+			"down": "varo_lilium_log_top"
+		},
+		"sound": "stone"
+	},
+	"varo:lilium_log_side": {
+		"textures": "varo_lilium_log_side",
+		"sound": "stone"
+	},
+	"varo:liliumwart": {
+		"textures": "varo_liliumwart",
+		"sound": "stone"
+	},
+	"varo:lilium_cobblestone": {
+		"textures": "varo_lilium_cobblestone",
+		"sound": "stone"
+	},
+	"varo:lilium_stone": {
+		"textures": "varo_lilium_stone",
+		"sound": "stone"
+	},
+	"varo:lilium_andeside": {
+		"textures": "varo_lilium_andeside",
+		"sound": "stone"
+	},
+	"varo:lilium_gravel": {
+		"textures": "varo_lilium_gravel",
+		"sound": "stone"
+	},
+	"varo:lilium_ore": {
+		"textures": "varo_lilium_ore",
+		"sound": "stone"
+	},
+	"varo:phoenium_forge": {
+		"textures": "varo_phoenium_forge",
+		"sound": "stone"
+	},
+	"varo:phenium_ore": {
+		"textures": "varo_phenium_ore",
+		"sound": "stone"
+	},
+	"varo:greenscreen": {
+		"textures": "varo_greenscreen",
+		"sound": "stone"
+	},
+	"varo:xray": {
+		"textures": "varo_xray",
+		"sound": "stone"
+	},
+	"varo:this_should_not_exist": {
+		"textures": "varo_this_should_not_exist",
+		"sound": "stone"
+	},
+	"varo:trophy": {
+		"textures": "varo_trophy",
+		"sound": "stone"
+	}
+}

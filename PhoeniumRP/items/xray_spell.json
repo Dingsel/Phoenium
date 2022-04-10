@@ -1,0 +1,15 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.16.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "varo:xray_spell",
+			"category": "Items"
+		},
+		"components": {
+			"minecraft:icon": "varo_xray_spell",
+			"minecraft:use_animation": "eat",
+			"minecraft:render_offsets": "apple"
+		}
+	}
+}

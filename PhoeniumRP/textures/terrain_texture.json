@@ -1,0 +1,68 @@
+{
+	"resource_pack_name": "bridgeRP",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"varo_phoenium_ore": {
+			"textures": "textures/blocks/phoenium_ore"
+		},
+		"varo_phoenium_grass": {
+			"textures": "textures/blocks/phoenium_grass"
+		},
+		"varo_summoning_eye": {
+			"textures": "textures/blocks/summoning_eye"
+		},
+		"varo_lilium": {
+			"textures": "textures/blocks/lilium"
+		},
+		"varo_liliumside": {
+			"textures": "textures/blocks/liliumside"
+		},
+		"varo_lilium_log_top": {
+			"textures": "textures/blocks/lilium_log_top"
+		},
+		"varo_lilium_log_side": {
+			"textures": "textures/blocks/lilium_log_side"
+		},
+		"varo_liliumwart": {
+			"textures": "textures/blocks/liliumwart"
+		},
+		"varo_liliumstoneslab": {
+			"textures": "textures/blocks/liliumstoneslab"
+		},
+		"varo_lilium_cobblestone": {
+			"textures": "textures/blocks/lilium_cobblestone"
+		},
+		"varo_lilium_stone": {
+			"textures": "textures/blocks/lilium_stone"
+		},
+		"varo_lilium_andeside": {
+			"textures": "textures/blocks/lilium_andeside"
+		},
+		"varo_lilium_gravel": {
+			"textures": "textures/blocks/lilium_gravel"
+		},
+		"varo_lilium_ore": {
+			"textures": "textures/blocks/lilium_ore"
+		},
+		"varo_phoenium_forge": {
+			"textures": "textures/blocks/phoenium_forge"
+		},
+		"varo_phenium_ore": {
+			"textures": "textures/blocks/phenium_ore"
+		},
+		"varo_greenscreen": {
+			"textures": "textures/blocks/greenscreen"
+		},
+		"varo_xray": {
+			"textures": "textures/blocks/xray"
+		},
+		"varo_this_should_not_exist": {
+			"textures": "textures/blocks/this_should_not_exist"
+		},
+		"varo_trophy": {
+			"textures": "textures/models/blocks/trophy"
+		}
+	}
+}

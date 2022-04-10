@@ -1,0 +1,35 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "varo:fly_wand"
+		},
+		"tags": [
+			"phoenium_forge"
+		],
+		"pattern": [
+			" MF",
+			" GM",
+			"W  "
+		],
+		"key": {
+			"W": {
+				"item": "varo:wand"
+			},
+			"G": {
+				"item": "varo:phoenix_gemstone"
+			},
+			"F": {
+				"item": "varo:phoenix_feather"
+			},
+			"M": {
+				"item": "minecraft:phantom_membrane"
+			}
+		},
+		"result": [
+			{
+				"item": "varo:fly_wand"
+			}
+		]
+	}
+}

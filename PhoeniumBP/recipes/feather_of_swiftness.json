@@ -1,0 +1,32 @@
+{
+	"format_version": "1.16.200",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "varo:feather_of_swiftness"
+		},
+		"tags": [
+			"phoenium_forge"
+		],
+		"pattern": [
+			"EsE",
+			"sps",
+			"EsE"
+		],
+		"key": {
+			"s": {
+				"item": "minecraft:sugar"
+			},
+			"p": {
+				"item": "minecraft:emerald_block"
+			},
+			"E": {
+				"item": "minecraft:feather"
+			}
+		},
+		"result": [
+			{
+				"item": "varo:feather_of_swiftness"
+			}
+		]
+	}
+}

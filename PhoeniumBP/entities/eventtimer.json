@@ -1,0 +1,23 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "varo:eventtimer",
+			"is_summonable": true,
+			"is_spawnable": true
+		},
+		"component_groups": {},
+		"components": {
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"deals_damage": false,
+						"damage_multiplier": 0,
+						"cause": "fatal"
+					}
+				]
+			}
+		},
+		"events": {}
+	}
+}

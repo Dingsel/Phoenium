@@ -1,0 +1,17 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "varo:feather_of_swiftness",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "varo_feather_of_swifness"
+			},
+			"minecraft:use_animation": "eat",
+			"minecraft:render_offsets": "apple"
+		},
+		"events": {}
+	}
+}

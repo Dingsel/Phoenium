@@ -1,0 +1,15 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.16.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "varo:feather_of_swiftness",
+			"category": "Items"
+		},
+		"components": {
+			"minecraft:icon": "varo_feather_of_swiftness",
+			"minecraft:use_animation": "eat",
+			"minecraft:render_offsets": "apple"
+		}
+	}
+}

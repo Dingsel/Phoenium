@@ -1,0 +1,14 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "varo:chicken_nugget",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "varo_chicken_nugget"
+			}
+		}
+	}
+}

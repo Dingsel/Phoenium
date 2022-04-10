@@ -1,0 +1,95 @@
+//bridge-file-version: #7
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"category": "equipment",
+			"identifier": "varo:mending_wand"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.sword"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:damage": 1,
+			"minecraft:icon": {
+				"texture": "varo_mending_wand",
+				"frame": "t.a??{t.a=-1;};t.a=t.a+1;return math.mod(math.floor(t.a/60),5);"
+			},
+			"minecraft:can_destroy_in_creative": false,
+			"minecraft:weapon": {},
+			"tag:minecraft:is_sword": {},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "wending_wand_trigger",
+					"condition": "query.scoreboard('mana')>=20"
+				}
+			},
+			"minecraft:cooldown": {
+				"duration": 2,
+				"category": "mending_wand"
+			},
+			"minecraft:render_offsets": {
+				"main_hand": {
+					"first_person": {
+						"scale": [
+							0.01875,
+							0.03125,
+							0.01875
+						]
+					},
+					"third_person": {
+						"scale": [
+							0.0375,
+							0.0625,
+							0.0375
+						]
+					}
+				},
+				"off_hand": {
+					"first_person": {
+						"scale": [
+							0.0375,
+							0.0625,
+							0.0375
+						]
+					},
+					"third_person": {
+						"scale": [
+							0.0375,
+							0.0625,
+							0.0375
+						]
+					}
+				}
+			},
+			"minecraft:display_name": {
+				"value": "§6§lHealing Wand\n§r§6Ability: Phoenix Grace §e§lRIGHT CLICK\n§r§7Restore§2 1.5 Hearts§7 over 2 seconds\n§8Mana Cost: §220\n§8Cooldown: §22.0s\n\n§l§6LEGENDARY ITEM"
+			}
+		},
+		"events": {
+			"wending_wand_trigger": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"function mending_wand_trigger"
+							]
+						},
+						"condition": "query.scoreboard('mana')>=20"
+					},
+					{
+						"condition": "query.scoreboard('mana')<20",
+						"run_command": {
+							"command": [
+								"tellraw @s {\"rawtext\":[{\"text\":\"§cYou don't have enoughe Mana.\"}]}",
+								"playsound mob.endermen.portal @s ~ ~ ~ 999 0.5 999"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

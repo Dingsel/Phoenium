@@ -1,0 +1,15 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "varo:lilium_log_top",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:destroy_time": 99999,
+			"minecraft:explosion_resistance": 99999,
+			"minecraft:map_color": "#ffffff"
+		},
+		"events": {}
+	}
+}

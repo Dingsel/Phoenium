@@ -1,0 +1,24 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "varo:loot_drop",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/loot_drop"
+			},
+			"geometry": {
+				"default": "geometry.loot_drop"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"spawn_egg": {
+				"base_color": "#bd6435",
+				"overlay_color": "#ffffff"
+			}
+		}
+	}
+}

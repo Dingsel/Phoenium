@@ -1,0 +1,33 @@
+{
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "varo:heartcontainer"
+		},
+		"tags": [
+			"phoenium_forge"
+		],
+		"pattern": [
+			"RER",
+			"GdG",
+			"RER"
+		],
+		"key": {
+			"R": {
+				"item": "minecraft:redstone_block"
+			},
+			"E": {
+				"item": "minecraft:iron_ingot"
+			},
+			"G": {
+				"item": "minecraft:gold_block"
+			},
+			"d": {
+				"item": "minecraft:diamond"
+			}
+		},
+		"result": {
+			"item": "varo:heartcontainer",
+			"data": 0
+		}
+	}
+}

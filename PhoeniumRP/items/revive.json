@@ -1,0 +1,14 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "varo:revive",
+			"category": "Item"
+		},
+		"components": {
+			"minecraft:icon": "varo_revive",
+			"minecraft:use_animation": "drink",
+			"minecraft:render_offsets": "apple"
+		}
+	}
+}

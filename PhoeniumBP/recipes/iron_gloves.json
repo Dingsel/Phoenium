@@ -1,0 +1,25 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "varo:iron_gloves"
+		},
+		"tags": [
+			"phoenium_forge"
+		],
+		"ingredients": [
+			{
+				"item": "varo:glove",
+				"data": 0
+			},
+			{
+				"item": "varo:glove",
+				"data": 0
+			}
+		],
+		"result": {
+			"item": "varo:iron_gloves",
+			"count": 1
+		}
+	}
+}

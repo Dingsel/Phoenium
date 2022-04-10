@@ -1,0 +1,85 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "varo:blazedheartcontainer"
+		},
+		"components": {
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "heart2"
+				}
+			},
+			"minecraft:icon": {
+				"texture": "varo_blazedheartcontainer"
+			},
+			"minecraft:render_offsets": {
+				"main_hand": {
+					"first_person": {
+						"scale": [
+							0.01875,
+							0.03125,
+							0.01875
+						]
+					},
+					"third_person": {
+						"scale": [
+							0.0375,
+							0.0625,
+							0.0375
+						]
+					}
+				},
+				"off_hand": {
+					"first_person": {
+						"scale": [
+							0.0375,
+							0.0625,
+							0.0375
+						]
+					},
+					"third_person": {
+						"scale": [
+							0.0375,
+							0.0625,
+							0.0375
+						]
+					}
+				}
+			}
+		},
+		"events": {
+			"heart2": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"clear @s varo:blazedheartcontainer 0 1",
+								"effect @s health_boost 999999 1 true",
+								"tell @s §4I consumed a §e Blazed Heartcontainer §4and gained §la additional 2 §r§4Hearts.",
+								"scoreboard players set @s hp 4"
+							]
+						},
+						"condition": "query.scoreboard('hp')==2"
+					},
+					{
+						"condition": "query.scoreboard('hp')>=4",
+						"run_command": {
+							"command": [
+								"tell @s I already consumed this..."
+							]
+						}
+					},
+					{
+						"condition": "query.scoreboard('hp')==0",
+						"run_command": {
+							"command": [
+								"tell @s I need to consume the previos Heartcanister to use this one..."
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

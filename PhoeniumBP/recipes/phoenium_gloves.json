@@ -1,0 +1,32 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "varo:phoenium_gloves"
+		},
+		"tags": [
+			"phoenium_forge"
+		],
+		"pattern": [
+			"RBR",
+			"BHB",
+			"RBR"
+		],
+		"key": {
+			"B": {
+				"item": "varo:phoenium"
+			},
+			"H": {
+				"item": "varo:iron_gloves"
+			},
+			"R": {
+				"item": "minecraft:redstone_block"
+			}
+		},
+		"result": [
+			{
+				"item": "varo:phoenium_gloves"
+			}
+		]
+	}
+}

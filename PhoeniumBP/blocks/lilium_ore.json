@@ -1,0 +1,15 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "varo:lilium_ore",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:destroy_time": 2.5,
+			"minecraft:explosion_resistance": 1000,
+			"minecraft:map_color": "#FF006D"
+		},
+		"events": {}
+	}
+}

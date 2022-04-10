@@ -1,0 +1,29 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "varo:this_should_not_exist",
+			"is_experimental": false,
+			"events": {}
+		},
+		"components": {
+			"minecraft:on_interact": {
+				"event": "uhh",
+				"target": "other"
+			}
+		},
+		"events": {
+			"uhh": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"tellraw @p {\"rawtext\":[{\"text\":\"The block that should't exist.\"}]}"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

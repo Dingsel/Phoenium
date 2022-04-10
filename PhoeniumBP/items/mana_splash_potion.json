@@ -1,0 +1,25 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"category": "nature",
+			"identifier": "varo:mana_splash_potion"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"texture": "varo_mana_splash_potion"
+			},
+			"minecraft:throwable": {
+				"do_swing_animation": true
+			},
+			"minecraft:projectile": {
+				"projectile_entity": "varo:mana_splash_potion_projectile"
+			},
+			"minecraft:potion": {
+				"type": "splash"
+			}
+		},
+		"events": {}
+	}
+}

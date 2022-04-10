@@ -1,0 +1,54 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Phoenium",
+		"description": "Phoenium project von Dingsel",
+		"uuid": "ac9575e3-c128-4d40-968d-24628d7c39d9",
+		"version": [
+			2,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			18,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "e3f43ec4-3e3a-4deb-9e59-aaf53a6bb187",
+			"version": [
+				2,
+				0,
+				0
+			]
+		}
+	],
+
+	
+	"dependencies": [
+		{
+			"uuid": "1c4d357c-bf1f-4843-add3-c782cbab876b",
+			"version": [
+				2,
+				0,
+				0
+			]
+		}
+	],
+	"metadata": {
+		"generated_with": {
+			"blockbench_entity_wizard": [
+				"1.0.6"
+			],
+			"bridge": [
+				"2.2.5"
+			],
+			"dash": [
+				"0.8.3"
+			]
+		}
+	}
+}

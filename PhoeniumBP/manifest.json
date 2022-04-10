@@ -1,0 +1,76 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Phoenium",
+		"description": "Phoenium project von Dingsel",
+		"uuid": "1c4d357c-bf1f-4843-add3-c782cbab876b",
+		"version": [
+			2,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			18,
+			0
+		]
+	},
+	"dependencies": [
+		{
+			"version": [
+				2,
+				0,
+				0
+			],
+			"uuid": "ac9575e3-c128-4d40-968d-24628d7c39d9"
+		},
+		{
+			"uuid": "b26a4d4c-afdf-4690-88f8-931846312678",
+			"version": [
+				0,
+				1,
+				0
+			]
+		},
+		{
+			"uuid": "6f4b6893-1bb6-42fd-b458-7fa3d0c89616",
+			"version": [
+				0,
+				1,
+				0
+			]
+		}
+	],
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "aa18b78f-a2fc-472e-80b2-6cd8664a596e",
+			"version": [
+				2,
+				0,
+				0
+			]
+		},
+		{
+			"type": "javascript",
+			"version": [
+				1,
+				0,
+				0
+			],
+			"uuid": "fade1f7b-cabc-44b0-866d-5457cb3feb31",
+			"entry": "scripts/gametests/Main.js"
+		}
+	],
+	"metadata": {
+		"generated_with": {
+			"bridge": [
+				"1.8.4",
+				"2.2.5"
+			],
+			"dash": [
+				"0.8.3"
+			]
+		}
+	}
+}

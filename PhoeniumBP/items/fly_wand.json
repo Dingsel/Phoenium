@@ -1,0 +1,61 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"category": "equipment",
+			"identifier": "varo:fly_wand"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.sword"
+			},
+			"minecraft:display_name": {
+				"value": "§6§lFly Wand\n§r§6Ability: Fly §e§lRIGHT CLICK\n§r§7Consumes Mana for the Abillity to§2 Fly§7\n§8Mana Cost: §210\n§8Cooldown: §23.0s\n\n§l§6LEGENDARY ITEM"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:damage": 1,
+			"minecraft:icon": {
+				"texture": "varo_fly_wand"
+			},
+			"minecraft:can_destroy_in_creative": false,
+			"minecraft:weapon": {},
+			"tag:minecraft:is_sword": {},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "fly_wand_trigger"
+				},
+				"condition": "query.scoreboard('mana')>=10"
+			},
+			"minecraft:cooldown": {
+				"duration": 3,
+				"category": "fly_wand"
+			},
+			"minecraft:stacked_by_data": true
+		},
+		"events": {
+			"fly_wand_trigger": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"function fly_wand_trigger"
+							]
+						},
+						"condition": "query.scoreboard('mana')>=10"
+					},
+					{
+						"condition": "query.scoreboard('mana')<10",
+						"run_command": {
+							"command": [
+								"tellraw @s {\"rawtext\":[{\"text\":\"§cYou don't have enoughe Mana.\"}]}",
+								"playsound mob.endermen.portal @s ~ ~ ~ 999 0.5 999"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

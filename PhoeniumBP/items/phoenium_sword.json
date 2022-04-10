@@ -1,0 +1,69 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"category": "equipment",
+			"identifier": "varo:phoenium_sword"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.sword"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:use_duration": 6400,
+			"minecraft:hand_equipped": true,
+			"minecraft:durability": {
+				"max_durability": 150
+			},
+			"minecraft:mining_speed": 1,
+			"minecraft:damage": 9,
+			"minecraft:icon": {
+				"texture": "varo_phoenium_sword"
+			},
+			"minecraft:enchantable": {
+				"value": 14,
+				"slot": "sword"
+			},
+			"minecraft:can_destroy_in_creative": false,
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
+						"block": "minecraft:web",
+						"speed": 12
+					},
+					{
+						"block": "minecraft:bamboo",
+						"speed": 8
+					}
+				]
+			},
+			"minecraft:weapon": {},
+			"tag:minecraft:is_sword": {},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "shield",
+					"condition": "query.scoreboard('mana')>19"
+				}
+			},
+			"minecraft:cooldown": {
+				"duration": 10,
+				"category": "phoenium_sword"
+			},
+			"minecraft:foil": true
+		},
+		"events": {
+			"shield": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"function shield"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

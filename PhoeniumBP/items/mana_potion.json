@@ -1,0 +1,40 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "varo:mana_potion"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:stacked_by_data": true,
+			"minecraft:use_duration": 1.6,
+			"minecraft:potion": {
+				"type": "regular"
+			},
+			"minecraft:food": {
+				"can_always_eat": true,
+				"on_consume": {
+					"event": "mana_potion_drink"
+				},
+				"using_converts_to": "minecraft:glass_bottle"
+			},
+			"minecraft:icon": {
+				"texture": "varo_mana_potion"
+			},
+			"minecraft:use_animation": "drink"
+		},
+		"events": {
+			"mana_potion_drink": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"function mana_potion_gain"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

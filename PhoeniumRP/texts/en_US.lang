@@ -1,0 +1,83 @@
+##bridge-file-version: #0
+#pack.name=Varo 2
+pack.description=Varo recurcen
+item.varo:phoenium.name=Phoenium
+item.varo:heartcontainer=Heart Container
+item.varo:blazedheartcontainer=Blazed Heart Container
+item.varo:phoenium_heartcontainer=Phoenium Heart Container
+item.varo:xray_spell.name=Xray Spell
+item.varo:phoenix_feather.name=Phoenix Feather
+item.varo:feather_of_swiftness.name=Feather of Swiftness
+tile.varo:phoenium_ore.name=Phoenium Ore
+tile.varo:phoenium_grass.name=Phoenium Grass
+tile.varo:summoning_eye.name=Phoenium Block
+item.varo:glove.name=Glove
+item.varo:phoenium_gloves.name=Phoenium Gloves
+item.varo:iron_gloves.name=Iron Gloves
+item.varo:phoenix_gemstone.name=Phoenix Gemstone
+tile.varo:lilium.name=Lilium
+tile.varo:lilium_log_top.name=Lilium Log
+tile.varo:liliumwart.name=Lilium Wart Block
+tile.varo:lilium_cobblestone.name=Lilium cobblestone
+tile.varo:lilium_stone.name=Lilium stone
+tile.varo:lilium_andeside.name=Lilium andeside
+tile.varo:lilium_gravel.name=Lilium gravel
+tile.varo:lilium_ore.name=Lilium ore
+tile.varo:phoenium_ore.name=Phoenium ore
+tile.varo:phoenium_forge.name=Phoenium forge
+item.varo:staff_of_fire=Staff of fire
+item.varo:fire_wand=Fire wand
+item.varo:dark_book.name=Dark Book
+tile.varo:phenium_ore.name=Phenium ore
+entity.varo:phoenix.name=Phoenix
+item.spawn_egg.entity.varo:phoenix.name=Spawn Phoenix
+item.varo:fire_ball=Fire ball
+entity.varo:fire_ball_projectile.name=Fire ball
+item.varo:dark_armor_helmet=Dark armor Helmet
+item.varo:dark_armor_chestplate=Dark armor Chestplate
+item.varo:dark_armor_leggings=Dark armor Leggings
+item.varo:dark_armor_boots=Dark armor Boots
+item.varo:mending_wand=Mending wand
+item.varo:fly_wand=Fly wand
+item.varo:ice_wand=Ice wand
+item.varo:flash_frost=Flash frost
+item.varo:shieldingshield=Shielding Shield
+item.varo:phoenium_shieldingshield.name=Phoenium Shielding Shield
+entity.varo:flash_frost_projectile.name=Flash frost
+
+item.varo:wand=Wand
+tile.varo:greenscreen.name=Greenscreen
+
+item.varo:mana_potion=Mana potion
+
+item.varo:mana_potion_2=Mana potion 2
+item.varo:mana_splash_potion=Mana splash potion
+
+entity.varo:mana_splash_potion_projectile.name=Mana splash potion
+item.varo:mana_splash_potion_2=Mana splash potion 2
+
+entity.varo:mana_splash_potion_2_projectile.name=Mana splash potion 2
+tile.varo:greenscreen.name=Greenscreen
+
+entity.varo:loot_drop.name=Loot Droop
+item.spawn_egg.entity.varo:loot_drop.name=Spawn Loot Droop
+item.varo:phoenium_sword=Phoenium sword
+item.varo:phoenium_armor_helmet=Phoenium armor Helmet
+
+item.varo:phoenium_pickaxe=Phoenium pickaxe
+tile.varo:xray.name=Xray
+
+entity.varo:kaos.name=K/OS
+item.spawn_egg.entity.varo:kaos.name=Spawn K/OS
+entity.varo:kaos.name=K/OS
+item.spawn_egg.entity.varo:kaos.name=Spawn K/OS
+entity.varo:kaos.name=K/OS
+item.spawn_egg.entity.varo:kaos.name=Spawn K/OS
+item.varo:revive=Player in a bottle
+item.varo:chicken_nugget=Player Soul
+
+tile.varo:this_should_not_exist.name=Phoenium Log?
+tile.varo:trophy.name=Trophy
+item.spawn_egg.entity.varo:logger.name=Spawn Logger
+entity.varo:logger.name=Logger
+item.varo:warp_wand=Warp wand

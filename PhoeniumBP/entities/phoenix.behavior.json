@@ -1,0 +1,33 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "varo:phoenix",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:physics": {
+				"has_gravity": true,
+				"has_collision": true
+			},
+			"minecraft:pushable": {
+				"is_pushable": false
+			},
+			"minecraft:push_through": {
+				"value": 1
+			},
+			"minecraft:boss": {
+				"hud_range": 125,
+				"name": "Dark Phoenix",
+				"should_darken_sky": true
+			},
+			"minecraft:health": {
+				"value": 1000
+			}
+		},
+		"component_groups": {},
+		"events": {}
+	}
+}

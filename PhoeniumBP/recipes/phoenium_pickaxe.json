@@ -1,0 +1,38 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "varo:phoenium_pickaxe"
+		},
+		"tags": [
+			"phoenium_forge"
+		],
+		"pattern": [
+			"MPM",
+			"PNP",
+			"DRD"
+		],
+		"key": {
+			"M": {
+				"item": "varo:mana_potion_2"
+			},
+			"P": {
+				"item": "varo:phoenium"
+			},
+			"N": {
+				"item": "minecraft:netherite_pickaxe"
+			},
+			"D": {
+				"item": "minecraft:diamond_pickaxe"
+			},
+			"R": {
+				"item": "varo:wand"
+			}
+		},
+		"result": [
+			{
+				"item": "varo:phoenium_pickaxe"
+			}
+		]
+	}
+}

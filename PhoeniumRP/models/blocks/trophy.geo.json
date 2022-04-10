@@ -1,0 +1,53 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.trophy",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-5, 0, -5], "size": [10, 2, 10], "uv": [24, 30]},
+						{"origin": [-3, 2, -3], "size": [6, 2, 6], "uv": [40, 22]},
+						{"origin": [-1, 4, -1], "size": [2, 3, 2], "uv": [34, 8]},
+						{"origin": [-2, 7, -2], "size": [4, 1, 4], "uv": [34, 3]},
+						{"origin": [-2, 8, -3], "size": [4, 4, 1], "uv": [54, 17]},
+						{"origin": [-2, 8, 2], "size": [4, 4, 1], "uv": [41, 8]},
+						{"origin": [-3, 8, -2], "size": [1, 4, 4], "uv": [44, 14]},
+						{"origin": [2, 8, -2], "size": [1, 4, 4], "uv": [54, 0]},
+						{"origin": [-1, 9, 3], "size": [2, 2, 0.5], "uv": [60, 26]},
+						{"origin": [-1, 9, -3.5], "size": [2, 2, 0.5], "uv": [34, 3]}
+					]
+				},
+				{
+					"name": "griff",
+					"parent": "root",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [3, 8.5, -1], "size": [1, 1, 2], "uv": [40, 0]},
+						{"origin": [3, 10.5, -1], "size": [1, 1, 2], "uv": [34, 0]},
+						{"origin": [4, 9, -1], "size": [1, 2, 2], "uv": [58, 8]}
+					]
+				},
+				{
+					"name": "griff2",
+					"parent": "root",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-4, 8.5, -1], "size": [1, 1, 2], "uv": [34, 27]},
+						{"origin": [-4, 10.5, -1], "size": [1, 1, 2], "uv": [40, 25]},
+						{"origin": [-5, 9, -1], "size": [1, 2, 2], "uv": [40, 21]}
+					]
+				}
+			]
+		}
+	]
+}

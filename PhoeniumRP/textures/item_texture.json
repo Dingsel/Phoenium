@@ -1,0 +1,156 @@
+{
+	"resource_pack_name": "bridgeRP",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"varo:fire_ball": {
+			"textures": [
+				"textures/items/fire_ball"
+			]
+		},
+		"varo:dark_book": {
+			"textures": [
+				"textures/items/dark_book"
+			]
+		},
+		"varo_heartcontainer": {
+			"textures": "textures/items/heartcontainer"
+		},
+		"varo_blazedheartcontainer": {
+			"textures": [
+				"textures/items/blazedheartcontainer"
+			]
+		},
+		"varo_phoenium": {
+			"textures": "textures/items/phoenium"
+		},
+		"varo_phoenium_heartcontainer": {
+			"textures": [
+				"textures/items/phoenium_heartcontainer"
+			]
+		},
+		"varo_xray_spell": {
+			"textures": "textures/items/xray_spell"
+		},
+		"varo_phoenix_feather": {
+			"textures": "textures/items/phoenix_feather"
+		},
+		"varo_feather_of_swiftness": {
+			"textures": "textures/items/feather_of_swiftness"
+		},
+		"varo_phoenium_gloves": {
+			"textures": "textures/items/phoenium_gloves"
+		},
+		"varo_glove": {
+			"textures": "textures/items/glove"
+		},
+		"varo_iron_gloves": {
+			"textures": "textures/items/iron_gloves"
+		},
+		"varo_shieldingshield": {
+			"textures": "textures/items/shieldingshield"
+		},
+		"varo_phoenium_shieldingshield": {
+			"textures": "textures/items/phoenium_shieldingshield"
+		},
+		"varo_phoenix_gemstone": {
+			"textures": "textures/items/phoenix_gemstone"
+		},
+		"varo_phoenium_bow": {
+			"textures": "textures/items/phoenium_bow"
+		},
+		"varo:fire_wand": {
+			"textures": [
+				"textures/items/varo_fire_wand0",
+				"textures/items/varo_fire_wand1",
+				"textures/items/varo_fire_wand2",
+				"textures/items/varo_fire_wand3"
+			]
+		},
+		"varo_mending_wand": {
+			"textures": [
+				"textures/items/mending_wand0",
+				"textures/items/mending_wand1",
+				"textures/items/mending_wand2",
+				"textures/items/mending_wand3",
+				"textures/items/mending_wand4"
+			]
+		},
+		"varo_fly_wand": {
+			"textures": "textures/items/fly_wand"
+		},
+		"varo_ice_wand": {
+			"textures": "textures/items/ice_wand"
+		},
+		"varo_flash_frost": {
+			"textures": [
+				"textures/items/flash_frost"
+			]
+		},
+		"varo_wand": {
+			"textures": "textures/items/wand"
+		},
+		"varo_mana_potion": {
+			"textures": "textures/items/mana_potion"
+		},
+		"varo_mana_potion_2": {
+			"textures": "textures/items/mana_potion_2"
+		},
+		"varo_mana_splash_potion": {
+			"textures": [
+				"textures/items/mana_splash_potion",
+				"textures/items/mana_splash_potion"
+			]
+		},
+		"varo_mana_splash_potion_2": {
+			"textures": [
+				"textures/items/mana_splash_potion_2",
+				"textures/items/mana_splash_potion_2"
+			]
+		},
+		"varo_mana_splash_potion_": {
+			"textures": [
+				"textures/items/mana_splash_potion_"
+			]
+		},
+		"varo_phoenium_sword": {
+			"textures": "textures/items/phoenium_sword"
+		},
+		"varo_phoenium_armor_helmet": {
+			"textures": [
+				"textures/items/phoenium_armor_helmet"
+			]
+		},
+		"varo_phoenium_armor_chestplate": {
+			"textures": [
+				"textures/items/phoenium_armor_chestplate"
+			]
+		},
+		"varo_phoenium_armor_leggings": {
+			"textures": [
+				"textures/items/phoenium_armor_leggings"
+			]
+		},
+		"varo_phoenium_armor_boots": {
+			"textures": [
+				"textures/items/phoenium_armor_boots"
+			]
+		},
+		"varo_phoenium_pickaxe": {
+			"textures": "textures/items/phoenium_pickaxe"
+		},
+		"varo_revive": {
+			"textures": "textures/items/revive"
+		},
+		"varo_chicken_nugget": {
+			"textures": "textures/items/chicken_nugget"
+		},
+		"logger": {
+			"textures": [
+				"textures/items/logger"
+			]
+		},
+		"varo_warp_wand": {
+			"textures": "textures/items/warp_wand"
+		}
+	}
+}

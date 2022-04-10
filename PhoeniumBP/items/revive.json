@@ -1,0 +1,52 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "varo:revive"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"texture": "varo_revive"
+			},
+			"minecraft:food": {
+				"on_consume": {
+					"event": "revive"
+				},
+				"can_always_eat": true
+			},
+			"minecraft:use_duration": 1,
+			"minecraft:potion": {
+				"type": "regular"
+			},
+			"minecraft:use_animation": "drink",
+			"minecraft:stacked_by_data": true
+		},
+		"events": {
+			"revive": {
+				"sequence": [
+					{
+						"condition": "query.scoreboard('revive')==0",
+						"run_command": {
+							"command": [
+								"scoreboard players set @s revive 1",
+								"tell @s You may now revive a Player by typing !revive",
+								"tag @s add revivable",
+								"clear @s varo:revive 0 1"
+							]
+						}
+					},
+					{
+						"condition": "query.scoreboard('revive')==1",
+						"run_command": {
+							"command": [
+								"give @s varo:revive",
+								"tell @s you have already consumed this Item ones."
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

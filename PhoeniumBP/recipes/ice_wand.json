@@ -1,0 +1,32 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "varo:ice_wand"
+		},
+		"tags": [
+			"phoenium_forge"
+		],
+		"pattern": [
+			" M ",
+			" G ",
+			" W "
+		],
+		"key": {
+			"W": {
+				"item": "varo:wand"
+			},
+			"G": {
+				"item": "varo:phoenix_gemstone"
+			},
+			"M": {
+				"item": "minecraft:powder_snow_bucket"
+			}
+		},
+		"result": [
+			{
+				"item": "varo:ice_wand"
+			}
+		]
+	}
+}

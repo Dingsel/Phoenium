@@ -1,0 +1,111 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"varo:kaos": {
+				"events": {
+					"ambient": "mob.zombie.say",
+					"death": "mob.zombie.death",
+					"hurt": "mob.zombie.hurt",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.zombie.step",
+						"volume": 0.45
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"varo:phoenix": {
+				"events": {
+					"ambient": "mob.phoenix.breathe",
+					"attack": "mob.phantom.bite",
+					"death": "mob.phoenix.death",
+					"flap": "mob.phantom.flap",
+					"hurt": "mob.phoenix.hit",
+					"swoop": {
+						"pitch": [0.95, 1.05],
+						"sound": "mob.phantom.swoop"
+					},
+					"shoot": "mob.phoenix.shoot"
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"varo:phoe": {
+				"volume": 1,
+				"pitch": [0.8, 1.2],
+				"events": {
+					"ambient": "mob.phoe.breathe",
+					"hurt": "mob.phoe.hit",
+					"death": "mob.phoe.death",
+					"shoot": "mob.phoe.shoot"
+				}
+			},
+			"varo:detecter": {
+				"volume": 1,
+				"pitch": [0.8, 1.2],
+				"events": {
+					"ambient": "mob.detecter.say",
+					"hurt": "mob.detecter.hurt",
+					"death": "mob.detecter.hurt",
+					"step": {
+						"sound": "mob.detecter.step",
+						"volume": 0.15,
+						"pitch": 1
+					}
+				}
+			}
+		},
+		"defaults": {
+			"volume": 1,
+			"pitch": [0.8, 1.2],
+			"events": {
+				"fall.big": {
+					"sound": "damage.fallbig",
+					"volume": 0.75,
+					"pitch": 1
+				},
+				"fall.small": {
+					"sound": "damage.fallsmall",
+					"volume": 0.75,
+					"pitch": 1
+				},
+				"splash": {
+					"sound": "random.splash",
+					"pitch": [0.6, 1.4]
+				},
+				"swim": {
+					"sound": "random.swim",
+					"pitch": [0.6, 1.4]
+				},
+				"fizz": {
+					"sound": "random.fizz",
+					"volume": 0.7,
+					"pitch": [1.2, 2]
+				},
+				"drink": {
+					"sound": "random.drink",
+					"volume": 0.5,
+					"pitch": [0.9, 1]
+				},
+				"eat": {
+					"sound": "random.eat",
+					"volume": [0.5, 1.5],
+					"pitch": [0.8, 1.2]
+				},
+				"ambient": "",
+				"flop": "",
+				"hurt": "game.player.hurt",
+				"death": "game.player.die",
+				"ambient.in.water": "",
+				"hurt.in.water": "",
+				"death.in.water": "",
+				"ambient.in.raid": ""
+			}
+		}
+	},
+	"individual_event_sounds": {
+		"events": {}
+	},
+	"block_sounds": {}
+}

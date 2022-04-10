@@ -1,0 +1,94 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "varo:phoenium_heartcontainer",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "varo_phoenium_heartcontainer"
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "health3"
+				}
+			},
+			"minecraft:render_offsets": {
+				"main_hand": {
+					"first_person": {
+						"scale": [
+							0.01875,
+							0.03125,
+							0.01875
+						]
+					},
+					"third_person": {
+						"scale": [
+							0.0375,
+							0.0625,
+							0.0375
+						]
+					}
+				},
+				"off_hand": {
+					"first_person": {
+						"scale": [
+							0.0375,
+							0.0625,
+							0.0375
+						]
+					},
+					"third_person": {
+						"scale": [
+							0.0375,
+							0.0625,
+							0.0375
+						]
+					}
+				}
+			}
+		},
+		"events": {
+			"health3": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"clear @s varo:phoenium_heartcontainer 0 1",
+								"effect @s health_boost 999999 2 true",
+								"tell @s §4I consumed a §4 Phoenium Heartcontainer §4and gained §la additional 2 §r§4Hearts.",
+								"scoreboard players set @s hp 6"
+							]
+						},
+						"condition": "query.scoreboard('hp')==4"
+					},
+					{
+						"condition": "query.scoreboard('hp')>=6",
+						"run_command": {
+							"command": [
+								"tell @s I already consumed this..."
+							]
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"tell @s I need to consume the previos Heartcanister to use this one..."
+							]
+						},
+						"condition": "query.scoreboard('hp')==2"
+					},
+					{
+						"condition": "query.scoreboard('hp')==0",
+						"run_command": {
+							"command": [
+								"tell @s I need to consume the previos Heartcanister to use this one..."
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

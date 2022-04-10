@@ -1,0 +1,23 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "varo:trophy",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:geometry": "geometry.trophy",
+			"minecraft:material_instances": {
+				"*": {
+					"ambient_occlusion": false,
+					"face_dimming": false,
+					"texture": "varo_trophy",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:block_light_absorption": 0
+		},
+		"events": {}
+	}
+}

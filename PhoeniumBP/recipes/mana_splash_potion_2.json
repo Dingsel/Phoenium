@@ -1,0 +1,14 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_brewing_mix": {
+		"description": {
+			"identifier": "varo:mana_splash_potion_2"
+		},
+		"tags": [
+			"brewing_stand"
+		],
+		"input": "varo:mana_potion_2",
+		"output": "varo:mana_splash_potion_2",
+		"reagent": "minecraft:gunpowder"
+	}
+}

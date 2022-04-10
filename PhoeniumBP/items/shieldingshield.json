@@ -1,0 +1,49 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "varo:shieldingshield"
+		},
+		"components": {
+			"minecraft:use_duration": 32,
+			"minecraft:icon": {
+				"texture": "varo_shieldingshield"
+			},
+			"minecraft:render_offsets": {
+				"main_hand": {
+					"first_person": {
+						"scale": [
+							0.01875,
+							0.03125,
+							0.01875
+						]
+					},
+					"third_person": {
+						"scale": [
+							0.0375,
+							0.0625,
+							0.0375
+						]
+					}
+				},
+				"off_hand": {
+					"first_person": {
+						"scale": [
+							0.0375,
+							0.0625,
+							0.0375
+						]
+					},
+					"third_person": {
+						"scale": [
+							0.0375,
+							0.0625,
+							0.0375
+						]
+					}
+				}
+			}
+		},
+		"events": {}
+	}
+}

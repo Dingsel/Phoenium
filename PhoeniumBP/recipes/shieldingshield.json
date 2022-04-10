@@ -1,0 +1,32 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "varo:shieldingshield"
+		},
+		"tags": [
+			"phoenium_forge"
+		],
+		"pattern": [
+			"MeM",
+			"eLe",
+			"MeM"
+		],
+		"key": {
+			"M": {
+				"item": "minecraft:mossy_cobblestone"
+			},
+			"e": {
+				"item": "minecraft:emerald"
+			},
+			"L": {
+				"item": "minecraft:leaves"
+			}
+		},
+		"result": [
+			{
+				"item": "varo:shieldingshield"
+			}
+		]
+	}
+}

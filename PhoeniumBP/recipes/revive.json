@@ -1,0 +1,33 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "varo:revive"
+		},
+		"pattern": [
+			" D ",
+			"SRS",
+			" D "
+		],
+		"key": {
+			"D": {
+				"item": "minecraft:diamond"
+			},
+			"S": {
+				"item": "minecraft:redstone"
+			},
+			"R": {
+				"item": "varo:chicken_nugget"
+			}
+		},
+		"result": [
+			{
+				"item": "varo:revive"
+			}
+		],
+		"tags": [
+			"crafting_table",
+			"phoenium_forge"
+		]
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "varo:phoenium_sword"
+		},
+		"tags": [
+			"phoenium_forge"
+		],
+		"pattern": [
+			"MPM",
+			"PNP",
+			"DRD"
+		],
+		"key": {
+			"M": {
+				"item": "varo:mana_potion_2"
+			},
+			"P": {
+				"item": "varo:phoenium"
+			},
+			"N": {
+				"item": "minecraft:netherite_sword"
+			},
+			"D": {
+				"item": "minecraft:diamond_sword"
+			},
+			"R": {
+				"item": "varo:wand"
+			}
+		},
+		"result": [
+			{
+				"item": "varo:phoenium_sword"
+			}
+		]
+	}
+}

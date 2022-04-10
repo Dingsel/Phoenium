@@ -1,0 +1,14 @@
+//bridge-file-version: #0
+{
+	"format_version": 1.1,
+	"minecraft:item": {
+		"description": {
+			"identifier": "varo:fire_wand",
+			"category": "Equipment"
+		},
+		"components": {
+			"minecraft:icon": "varo_fire_wand",
+			"minecraft:render_offsets": "miscellaneous"
+		}
+	}
+}

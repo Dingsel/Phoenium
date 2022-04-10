@@ -1,0 +1,39 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "varo:fly_ride",
+			"is_summonable": true,
+			"is_spawnable": true,
+			"animations": {
+				"rider": "controller.animation.fly_ride.rider"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"rider": "query.has_rider"
+					}
+				]
+			}
+		},
+		"component_groups": {
+			"varo:del_ride": {
+				"minecraft:instant_despawn": {}
+			}
+		},
+		"components": {
+			"minecraft:rideable": {
+				"seat_count": 1
+			}
+		},
+		"events": {
+			"del_ride": {
+				"add": {
+					"component_groups": [
+						"varo:del_ride"
+					]
+				}
+			}
+		}
+	}
+}

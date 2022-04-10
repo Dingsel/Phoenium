@@ -1,0 +1,15 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.16.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "varo:phoenium_heartcontainer",
+			"category": "Items"
+		},
+		"components": {
+			"minecraft:icon": "varo_phoenium_heartcontainer",
+			"minecraft:use_animation": "eat",
+			"minecraft:render_offsets": "apple"
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "varo:phoenix_feather"
+		},
+		"tags": [
+			"phoenium_forge"
+		],
+		"pattern": [
+			"PBP",
+			"BHB",
+			"PBP"
+		],
+		"key": {
+			"B": {
+				"item": "varo:phoenium"
+			},
+			"H": {
+				"item": "varo:feather_of_swiftness"
+			},
+			"P": {
+				"item": "minecraft:phantom_membrane"
+			}
+		},
+		"result": [
+			{
+				"item": "varo:phoenix_feather"
+			}
+		]
+	}
+}

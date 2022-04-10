@@ -1,0 +1,64 @@
+//bridge-file-version: #23
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"category": "equipment",
+			"identifier": "varo:warp_wand"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.sword"
+			},
+			"minecraft:display_name": {
+				"value": "§6§lWarp Wand\n§r§6Ability: Warp §e§lRIGHT CLICK\n§r§7Warp ahad§2 7 Blocks§7\n§8Mana Cost: §210\n§8Cooldown: §20.2s\n\n§l§6LEGENDARY ITEM"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:icon": {
+				"texture": "varo_warp_wand"
+			},
+			"minecraft:can_destroy_in_creative": false,
+			"minecraft:weapon": {},
+			"tag:minecraft:is_sword": {},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "warp"
+				}
+			},
+			"minecraft:cooldown": {
+				"duration": 0.2,
+				"category": "warp_wand"
+			}
+		},
+		"events": {
+			"warp": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"tp @s ^ ^2 ^7",
+								"playsound mob.endermen.portal @s ~ ~ ~ 999 1 999",
+								"scoreboard players remove @s mana 10",
+								"scoreboard players add @s mastery 1"
+							]
+						},
+						"condition": "query.scoreboard('mana') >= 10 "
+					},
+					{
+						"swing": {}
+					},
+					{
+						"condition": "query.scoreboard('mana') <= 10",
+						"run_command": {
+							"command": [
+								"playsound mob.endermen.portal @s ~ ~ ~ 999 0.5 999",
+								"tellraw @s {\"rawtext\":[{\"text\":\"§cYou don't have enoughe Mana.\"}]}"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}

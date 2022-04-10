@@ -1,0 +1,35 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "varo:mending_wand"
+		},
+		"tags": [
+			"phoenium_forge"
+		],
+		"pattern": [
+			" EA",
+			" GE",
+			"W  "
+		],
+		"key": {
+			"W": {
+				"item": "varo:wand"
+			},
+			"G": {
+				"item": "varo:phoenix_gemstone"
+			},
+			"E": {
+				"item": "minecraft:emerald"
+			},
+			"A": {
+				"item": "minecraft:golden_apple"
+			}
+		},
+		"result": [
+			{
+				"item": "varo:mending_wand"
+			}
+		]
+	}
+}

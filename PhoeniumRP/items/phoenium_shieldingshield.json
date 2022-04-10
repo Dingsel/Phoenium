@@ -1,0 +1,14 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.16.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "varo:phoenium_shieldingshield",
+			"category": "Items"
+		},
+		"components": {
+			"minecraft:icon": "varo_phoenium_shieldingshield",
+			"minecraft:render_offsets": "apple"
+		}
+	}
+}

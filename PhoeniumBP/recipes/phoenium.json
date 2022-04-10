@@ -1,0 +1,33 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "varo:phoenium"
+		},
+		"pattern": [
+			" R ",
+			"GDG",
+			" R "
+		],
+		"key": {
+			"D": {
+				"item": "minecraft:diamond"
+			},
+			"G": {
+				"item": "minecraft:gold_ingot"
+			},
+			"R": {
+				"item": "minecraft:redstone"
+			}
+		},
+		"result": [
+			{
+				"item": "varo:phoenium"
+			}
+		],
+		"tags": [
+			"crafting_table",
+			"phoenium_forge"
+		]
+	}
+}

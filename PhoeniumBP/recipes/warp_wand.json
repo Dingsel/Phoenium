@@ -1,0 +1,35 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "varo:warp_wand"
+		},
+		"pattern": [
+			"eEe",
+			" G ",
+			" W "
+		],
+		"key": {
+			"W": {
+				"item": "varo:wand"
+			},
+			"e": {
+				"item": "minecraft:emerald"
+			},
+			"E":{
+				"item":"minecraft:ender_eye"
+			},
+			"G":{
+				"item":"varo:phoenix_gemstone"
+			}
+		},
+		"result": [
+			{
+				"item": "varo:warp_wand"
+			}
+		],
+		"tags": [
+		"phoenium_forge"
+	]
+	}
+}

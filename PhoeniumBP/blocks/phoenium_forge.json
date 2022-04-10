@@ -1,0 +1,22 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "varo:phoenium_forge",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:destroy_time": 999999,
+			"minecraft:explosion_resistance": 999999,
+			"minecraft:map_color": "#ffffff",
+			"minecraft:crafting_table": {
+				"grid_size": 3,
+				"crafting_tags": [
+					"phoenium_forge"
+				],
+				"custom_description": "Phoenium Forge"
+			}
+		},
+		"events": {}
+	}
+}

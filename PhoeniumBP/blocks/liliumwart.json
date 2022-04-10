@@ -1,0 +1,15 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "varo:liliumwart",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:destroy_time": 999999,
+			"minecraft:explosion_resistance": 999999,
+			"minecraft:map_color": "#8714BF"
+		},
+		"events": {}
+	}
+}

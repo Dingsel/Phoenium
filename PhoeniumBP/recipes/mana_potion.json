@@ -1,0 +1,14 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_brewing_mix": {
+		"description": {
+			"identifier": "varo:mana_potion"
+		},
+		"tags": [
+			"brewing_stand"
+		],
+		"input": "minecraft:potion:4",
+		"reagent": "varo:phoenium",
+		"output": "varo:mana_potion"
+	}
+}

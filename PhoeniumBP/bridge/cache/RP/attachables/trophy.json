@@ -1,0 +1,371 @@
+{
+	"file_path": "C:\\Users\\Luka\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\PhoeniumRP\\attachables\\trophy.json",
+	"file_type": "attachable",
+	"format_version": 1,
+	"file_uuid": "bf05aa35_6510_4129_b28b_ff1e671d85a8",
+	"file_version": 34,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.12.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.12.0",
+					"minecraft:attachable": {
+						"description": {
+							"identifier": "varo:trophy",
+							"materials": {
+								"default": "opaque_block",
+								"enchanted": "entity_alphatest_glint"
+							},
+							"textures": {
+								"default": "textures/models/blocks/trophy",
+								"enchanted": "textures/misc/enchanted_item_glint"
+							},
+							"geometry": {
+								"default": "geometry.trophy"
+							},
+							"scripts": {
+								"pre_animation": [
+									"v.main_hand = c.item_slot == 'main_hand';"
+								],
+								"animate": [
+									{
+										"firstperson_main_hand": "v.main_hand && c.is_first_person"
+									},
+									{}
+								]
+							},
+							"render_controllers": [
+								"controller.render.item_default"
+							]
+						}
+					}
+				},
+				"key": "minecraft:attachable",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "varo:trophy",
+								"materials": {
+									"default": "opaque_block",
+									"enchanted": "entity_alphatest_glint"
+								},
+								"textures": {
+									"default": "textures/models/blocks/trophy",
+									"enchanted": "textures/misc/enchanted_item_glint"
+								},
+								"geometry": {
+									"default": "geometry.trophy"
+								},
+								"scripts": {
+									"pre_animation": [
+										"v.main_hand = c.item_slot == 'main_hand';"
+									],
+									"animate": [
+										{
+											"firstperson_main_hand": "v.main_hand && c.is_first_person"
+										},
+										{}
+									]
+								},
+								"render_controllers": [
+									"controller.render.item_default"
+								]
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "varo:trophy",
+								"key": "identifier"
+							},
+							{
+								"open": {
+									"identifier": "varo:trophy",
+									"materials": {
+										"default": "opaque_block",
+										"enchanted": "entity_alphatest_glint"
+									},
+									"textures": {
+										"default": "textures/models/blocks/trophy",
+										"enchanted": "textures/misc/enchanted_item_glint"
+									},
+									"geometry": {
+										"default": "geometry.trophy"
+									},
+									"scripts": {
+										"pre_animation": [
+											"v.main_hand = c.item_slot == 'main_hand';"
+										],
+										"animate": [
+											{
+												"firstperson_main_hand": "v.main_hand && c.is_first_person"
+											},
+											{}
+										]
+									},
+									"render_controllers": [
+										"controller.render.item_default"
+									]
+								},
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "opaque_block",
+									"enchanted": "entity_alphatest_glint"
+								}
+							},
+							{
+								"open": {
+									"identifier": "varo:trophy",
+									"materials": {
+										"default": "opaque_block",
+										"enchanted": "entity_alphatest_glint"
+									},
+									"textures": {
+										"default": "textures/models/blocks/trophy",
+										"enchanted": "textures/misc/enchanted_item_glint"
+									},
+									"geometry": {
+										"default": "geometry.trophy"
+									},
+									"scripts": {
+										"pre_animation": [
+											"v.main_hand = c.item_slot == 'main_hand';"
+										],
+										"animate": [
+											{
+												"firstperson_main_hand": "v.main_hand && c.is_first_person"
+											},
+											{}
+										]
+									},
+									"render_controllers": [
+										"controller.render.item_default"
+									]
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/models/blocks/trophy",
+									"enchanted": "textures/misc/enchanted_item_glint"
+								}
+							},
+							{
+								"open": {
+									"identifier": "varo:trophy",
+									"materials": {
+										"default": "opaque_block",
+										"enchanted": "entity_alphatest_glint"
+									},
+									"textures": {
+										"default": "textures/models/blocks/trophy",
+										"enchanted": "textures/misc/enchanted_item_glint"
+									},
+									"geometry": {
+										"default": "geometry.trophy"
+									},
+									"scripts": {
+										"pre_animation": [
+											"v.main_hand = c.item_slot == 'main_hand';"
+										],
+										"animate": [
+											{
+												"firstperson_main_hand": "v.main_hand && c.is_first_person"
+											},
+											{}
+										]
+									},
+									"render_controllers": [
+										"controller.render.item_default"
+									]
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.trophy"
+								}
+							},
+							{
+								"open": {
+									"identifier": "varo:trophy",
+									"materials": {
+										"default": "opaque_block",
+										"enchanted": "entity_alphatest_glint"
+									},
+									"textures": {
+										"default": "textures/models/blocks/trophy",
+										"enchanted": "textures/misc/enchanted_item_glint"
+									},
+									"geometry": {
+										"default": "geometry.trophy"
+									},
+									"scripts": {
+										"pre_animation": [
+											"v.main_hand = c.item_slot == 'main_hand';"
+										],
+										"animate": [
+											{
+												"firstperson_main_hand": "v.main_hand && c.is_first_person"
+											},
+											{}
+										]
+									},
+									"render_controllers": [
+										"controller.render.item_default"
+									]
+								},
+								"key": "scripts",
+								"children": [
+									{
+										"open": {
+											"pre_animation": [
+												"v.main_hand = c.item_slot == 'main_hand';"
+											],
+											"animate": [
+												{
+													"firstperson_main_hand": "v.main_hand && c.is_first_person"
+												},
+												{}
+											]
+										},
+										"key": "pre_animation",
+										"is_minified": true,
+										"children": [
+											"v.main_hand = c.item_slot == 'main_hand';"
+										]
+									},
+									{
+										"open": {
+											"pre_animation": [
+												"v.main_hand = c.item_slot == 'main_hand';"
+											],
+											"animate": [
+												{
+													"firstperson_main_hand": "v.main_hand && c.is_first_person"
+												},
+												{}
+											]
+										},
+										"key": "animate",
+										"children": [
+											{
+												"open": [
+													{
+														"firstperson_main_hand": "v.main_hand && c.is_first_person"
+													},
+													{}
+												],
+												"is_minified": true,
+												"children": {
+													"firstperson_main_hand": "v.main_hand && c.is_first_person"
+												}
+											},
+											{
+												"open": [
+													{
+														"firstperson_main_hand": "v.main_hand && c.is_first_person"
+													},
+													{}
+												],
+												"children": [
+													{
+														"data": "v.main_hand && c.is_first_person",
+														"key": "thirdperson_main_hand",
+														"is_active": false
+													}
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"open": {
+									"identifier": "varo:trophy",
+									"materials": {
+										"default": "opaque_block",
+										"enchanted": "entity_alphatest_glint"
+									},
+									"textures": {
+										"default": "textures/models/blocks/trophy",
+										"enchanted": "textures/misc/enchanted_item_glint"
+									},
+									"geometry": {
+										"default": "geometry.trophy"
+									},
+									"scripts": {
+										"pre_animation": [
+											"v.main_hand = c.item_slot == 'main_hand';"
+										],
+										"animate": [
+											{
+												"firstperson_main_hand": "v.main_hand && c.is_first_person"
+											},
+											{}
+										]
+									},
+									"render_controllers": [
+										"controller.render.item_default"
+									]
+								},
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.item_default"
+								]
+							},
+							{
+								"open": {
+									"identifier": "varo:trophy",
+									"materials": {
+										"default": "opaque_block",
+										"enchanted": "entity_alphatest_glint"
+									},
+									"textures": {
+										"default": "textures/models/blocks/trophy",
+										"enchanted": "textures/misc/enchanted_item_glint"
+									},
+									"geometry": {
+										"default": "geometry.trophy"
+									},
+									"scripts": {
+										"pre_animation": [
+											"v.main_hand = c.item_slot == 'main_hand';"
+										],
+										"animate": [
+											{
+												"firstperson_main_hand": "v.main_hand && c.is_first_person"
+											},
+											{}
+										]
+									},
+									"render_controllers": [
+										"controller.render.item_default"
+									]
+								},
+								"key": "animations",
+								"is_active": false,
+								"children": [
+									{
+										"data": "animation.trophy.firstperson_main_hand",
+										"key": "firstperson_main_hand"
+									},
+									{
+										"data": "animation.trophy.thirdperson_main_hand",
+										"key": "thirdperson_main_hand",
+										"is_active": false
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

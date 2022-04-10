@@ -1,0 +1,15 @@
+{
+	"format_version": "1.14.0",
+	"sound_definitions": {
+		"varo.start": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/start",
+					"load_on_low_memory": true
+				},
+				"sounds/start"
+			]
+		}
+	}
+}

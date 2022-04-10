@@ -1,0 +1,32 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "varo:blazed_heartcontainer"
+		},
+		"tags": [
+			"phoenium_forge"
+		],
+		"pattern": [
+			"RBR",
+			"BHB",
+			"RBR"
+		],
+		"key": {
+			"B": {
+				"item": "minecraft:blaze_powder"
+			},
+			"H": {
+				"item": "varo:heartcontainer"
+			},
+			"R": {
+				"item": "minecraft:blaze_rod"
+			}
+		},
+		"result": [
+			{
+				"item": "varo:blazedheartcontainer"
+			}
+		]
+	}
+}

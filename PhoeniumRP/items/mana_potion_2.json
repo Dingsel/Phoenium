@@ -1,0 +1,14 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "varo:mana_potion_2",
+			"category": "Item"
+		},
+		"components": {
+			"minecraft:icon": "varo_mana_potion_2",
+			"minecraft:use_animation": "drink",
+			"minecraft:render_offsets": "apple"
+		}
+	}
+}
