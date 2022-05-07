@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "varo:phoenium_armor_helmet.player",
 			"item": {
-				"varo:phoenium_armor_helmet": "query.owner_identifier == 'minecraft:player'"
+				"varo:phoenium_armor_helmet": "query.is_owner_identifier_any == 'minecraft:player'"
 			},
 			"materials": {
 				"default": "armor",

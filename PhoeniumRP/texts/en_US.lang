@@ -1,5 +1,5 @@
 ##bridge-file-version: #0
-#pack.name=Varo 2
+pack.name=Varo 2
 pack.description=Varo recurcen
 item.varo:phoenium.name=Phoenium
 item.varo:heartcontainer=Heart Container
@@ -23,7 +23,6 @@ tile.varo:lilium_stone.name=Lilium stone
 tile.varo:lilium_andeside.name=Lilium andeside
 tile.varo:lilium_gravel.name=Lilium gravel
 tile.varo:lilium_ore.name=Lilium ore
-tile.varo:phoenium_ore.name=Phoenium ore
 tile.varo:phoenium_forge.name=Phoenium forge
 item.varo:staff_of_fire=Staff of fire
 item.varo:fire_wand=Fire wand
@@ -57,7 +56,6 @@ entity.varo:mana_splash_potion_projectile.name=Mana splash potion
 item.varo:mana_splash_potion_2=Mana splash potion 2
 
 entity.varo:mana_splash_potion_2_projectile.name=Mana splash potion 2
-tile.varo:greenscreen.name=Greenscreen
 
 entity.varo:loot_drop.name=Loot Droop
 item.spawn_egg.entity.varo:loot_drop.name=Spawn Loot Droop
@@ -67,10 +65,6 @@ item.varo:phoenium_armor_helmet=Phoenium armor Helmet
 item.varo:phoenium_pickaxe=Phoenium pickaxe
 tile.varo:xray.name=Xray
 
-entity.varo:kaos.name=K/OS
-item.spawn_egg.entity.varo:kaos.name=Spawn K/OS
-entity.varo:kaos.name=K/OS
-item.spawn_egg.entity.varo:kaos.name=Spawn K/OS
 entity.varo:kaos.name=K/OS
 item.spawn_egg.entity.varo:kaos.name=Spawn K/OS
 item.varo:revive=Player in a bottle
