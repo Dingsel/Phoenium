@@ -1,14 +1,22 @@
+<<<<<<< HEAD
 //bridge-file-version: #3
+=======
+//bridge-file-version: #2
+>>>>>>> 6f09d66fe7e02707e760f5ecca90767cd2f3cc71
 {
 	"format_version": "1.17.0",
 	"minecraft:recipe_shaped": {
 		"description": {
 			"identifier": "varo:upgrade"
 		},
+<<<<<<< HEAD
 		"tags": [
 			"phoenium_forge",
 			"crafting_table"
 		],
+=======
+		"tags": {},
+>>>>>>> 6f09d66fe7e02707e760f5ecca90767cd2f3cc71
 		"pattern": [
 			"DDD",
 			"DND",
