@@ -12,7 +12,10 @@
 						"volume": 0.45
 					}
 				},
-				"pitch": [0.8, 1.2],
+				"pitch": [
+					0.8,
+					1.2
+				],
 				"volume": 1
 			},
 			"varo:phoenix": {
@@ -23,17 +26,26 @@
 					"flap": "mob.phantom.flap",
 					"hurt": "mob.phoenix.hit",
 					"swoop": {
-						"pitch": [0.95, 1.05],
+						"pitch": [
+							0.95,
+							1.05
+						],
 						"sound": "mob.phantom.swoop"
 					},
 					"shoot": "mob.phoenix.shoot"
 				},
-				"pitch": [0.8, 1.2],
+				"pitch": [
+					0.8,
+					1.2
+				],
 				"volume": 1
 			},
 			"varo:phoe": {
 				"volume": 1,
-				"pitch": [0.8, 1.2],
+				"pitch": [
+					0.8,
+					1.2
+				],
 				"events": {
 					"ambient": "mob.phoe.breathe",
 					"hurt": "mob.phoe.hit",
@@ -43,7 +55,10 @@
 			},
 			"varo:detecter": {
 				"volume": 1,
-				"pitch": [0.8, 1.2],
+				"pitch": [
+					0.8,
+					1.2
+				],
 				"events": {
 					"ambient": "mob.detecter.say",
 					"hurt": "mob.detecter.hurt",
@@ -54,11 +69,35 @@
 						"pitch": 1
 					}
 				}
+			},
+			"varo:leviathan": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"hurt": "mob.leviathan.hurt",
+					"hurt.in.water": "mob.leviathan.hurt",
+					"flop": {
+						"sound": "mob.leviathan.flop",
+						"volume": 1,
+						"pitch": 1
+					},
+					"step": {
+						"sound": "mob.leviathan.step",
+						"volume": 0.15,
+						"pitch": 1
+					}
+				}
 			}
 		},
 		"defaults": {
 			"volume": 1,
-			"pitch": [0.8, 1.2],
+			"pitch": [
+				0.8,
+				1.2
+			],
 			"events": {
 				"fall.big": {
 					"sound": "damage.fallbig",
@@ -72,26 +111,44 @@
 				},
 				"splash": {
 					"sound": "random.splash",
-					"pitch": [0.6, 1.4]
+					"pitch": [
+						0.6,
+						1.4
+					]
 				},
 				"swim": {
 					"sound": "random.swim",
-					"pitch": [0.6, 1.4]
+					"pitch": [
+						0.6,
+						1.4
+					]
 				},
 				"fizz": {
 					"sound": "random.fizz",
 					"volume": 0.7,
-					"pitch": [1.2, 2]
+					"pitch": [
+						1.2,
+						2
+					]
 				},
 				"drink": {
 					"sound": "random.drink",
 					"volume": 0.5,
-					"pitch": [0.9, 1]
+					"pitch": [
+						0.9,
+						1
+					]
 				},
 				"eat": {
 					"sound": "random.eat",
-					"volume": [0.5, 1.5],
-					"pitch": [0.8, 1.2]
+					"volume": [
+						0.5,
+						1.5
+					],
+					"pitch": [
+						0.8,
+						1.2
+					]
 				},
 				"ambient": "",
 				"flop": "",

@@ -1,3 +1,4 @@
+//bridge-file-version: #2
 {
 	"format_version": "1.17.0",
 	"minecraft:item": {
@@ -55,8 +56,8 @@
 						"run_command": {
 							"command": [
 								"clear @s varo:heartcontainer 0 1",
-								"effect @s health_boost 999999 0 true",
-								"tell @s §4I consumed a §rHeartcontainer §4and gained §l2 §r§4Hearts.",
+								"event entity @s health1",
+								"tellraw @s {\"rawtext\":[{\"text\":\"You consumed a §rHeartcontainer §4and gained §l2 §r§4Hearts.\"}]}",
 								"scoreboard players set @s hp 2"
 							]
 						},
@@ -66,7 +67,7 @@
 						"condition": "query.scoreboard('hp')>=2",
 						"run_command": {
 							"command": [
-								"tell @s I already consumed this..."
+								"tellraw @s {\"rawtext\":[{\"text\":\"I already consumed this...\"}]}"
 							]
 						}
 					}

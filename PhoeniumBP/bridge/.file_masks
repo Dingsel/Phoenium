@@ -1,0 +1,241 @@
+{
+	"RP/models/trophy.geo.json": {
+		"data": {}
+	},
+	"RP/attachables/trophy.json": {
+		"data": {}
+	},
+	"RP/fogs/phoenium_sky.json": {
+		"data": {}
+	},
+	"BP/blocks/trophy.json": {
+		"data": {}
+	},
+	"BP/entities/player.json": {
+		"data": {}
+	},
+	"BP/animation_controllers/bridge/custom_item_behavior.json": {
+		"data": {
+			"5039092f_172e_440d_baf5_2d82609aaa7f": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"dcb5a4b6_b6b6_4aac_b87c_5c60a38d0c57": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"93816045_635c_4a69_aa10_4d72617b1956": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"b962f4a3_d2fc_4bd2_aaed_fef7b452be46": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"3a023df8_115f_4a6b_9ae2_9ea586d0aab3": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"2dd3e2c2_67d0_4a3f_9d7e_3ac4a5cc0af6": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"c7517418_48c8_44f9_a5dc_d87fa149cce9": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"e2b953a3_8704_4ecf_822a_51ba70236210": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"f5e9b6e6_d108_460b_bbbd_0dd5a2421381": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"5fb31cb7_36ef_4015_9df8_cf2213673d8e": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"2f3ee0a8_c843_456e_83b6_07abaf4f85c2": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"1d2f9429_15cc_4e63_85b7_69502e4da39c": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			},
+			"87a192a5_5232_422b_9d0f_d4bdb1d81137": {
+				"format_version": "1.10.0",
+				"animation_controllers": {
+					"controller.animation.bridge_custom_item_behavior": {
+						"states": {
+							"default": {}
+						}
+					}
+				}
+			}
+		}
+	},
+	"BP/items/fire_wand.json": {
+		"data": {}
+	},
+	"BP/items/fly_wand.json": {
+		"data": {}
+	},
+	"BP/items/mending_wand.json": {
+		"data": {}
+	},
+	"BP/items/ice_wand.json": {
+		"data": {}
+	},
+	"BP/entities/timer.json": {
+		"data": {}
+	},
+	"BP/entities/eventtimer.json": {
+		"data": {}
+	},
+	"RP/entity/logger.json": {
+		"data": {}
+	},
+	"BP/entities/logger.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/logger.json": {
+		"data": {}
+	},
+	"BP/items/warp_wand.json": {
+		"data": {}
+	},
+	"BP/recipes/warp_wand.json": {
+		"data": {}
+	},
+	"BP/items/phoenium_sword.json": {
+		"data": {}
+	},
+	"BP/blocks/phoenium_leaves.json": {
+		"data": {}
+	},
+	"BP/loot_tables/entities/leviathan_normal.json": {
+		"data": {}
+	},
+	"BP/entities/leviathan.json": {
+		"data": {}
+	},
+	"BP/items/revive.json": {
+		"data": {}
+	},
+	"BP/items/blazedheartcontainer.json": {
+		"data": {}
+	},
+	"BP/items/phoenium_heartcontainer.json": {
+		"data": {}
+	},
+	"BP/items/heartcontainer.json": {
+		"data": {}
+	},
+	"RP/animations/phoenix.animation.json": {
+		"data": {}
+	},
+	"RP/entity/phoenix.entity.json": {
+		"data": {}
+	},
+	"RP/animation_controllers/controler.animation.phoenix.json": {
+		"data": {}
+	},
+	"BP/entities/phoenix.behavior.json": {
+		"data": {}
+	},
+	"BP/functions/tick.json": {
+		"data": {}
+	},
+	"RP/entity/leviathan.json": {
+		"data": {}
+	},
+	"RP/animation_controllers/controler.animation.leviathan.json": {
+		"data": {}
+	},
+	"BP/items/phoenium_pickaxe.json": {
+		"data": {}
+	},
+	"BP/items/mana_amulet.json": {
+		"data": {}
+	},
+	"BP/items/upgrade.json": {
+		"data": {}
+	},
+	"BP/recipes/upgrade.json": {
+		"data": {}
+	}
+}

@@ -1,4 +1,4 @@
-//bridge-file-version: #7
+//bridge-file-version: #9
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -65,7 +65,7 @@
 				}
 			},
 			"minecraft:display_name": {
-				"value": "§6§lHealing Wand\n§r§6Ability: Phoenix Grace §e§lRIGHT CLICK\n§r§7Restore§2 1.5 Hearts§7 over 2 seconds\n§8Mana Cost: §220\n§8Cooldown: §22.0s\n\n§l§6LEGENDARY ITEM"
+				"value": "§6§lHealing Wand\n§r§6Ability: Phoenix Grace §e§lRIGHT CLICK\n§r§7Restore§2 1.5 Hearts§7 over 2 seconds\n§8Mana Cost: §b20\n§8Cooldown: 2.0s\n\n§l§6LEGENDARY ITEM"
 			}
 		},
 		"events": {

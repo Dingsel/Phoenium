@@ -11,7 +11,7 @@
 				"parent": "itemGroup.name.sword"
 			},
 			"minecraft:display_name": {
-				"value": "§6§lWarp Wand\n§r§6Ability: Warp §e§lRIGHT CLICK\n§r§7Warp ahad§2 7 Blocks§7\n§8Mana Cost: §210\n§8Cooldown: §20.2s\n\n§l§6LEGENDARY ITEM"
+				"value": "§6§lWarp Wand\n§r§6Ability: Warp §e§lRIGHT CLICK\n§r§7Warp §27 Blocks ahead§7\n§8Mana Cost: §b10\n§8Cooldown: 0.2s\n\n§l§6LEGENDARY ITEM"
 			},
 			"minecraft:max_stack_size": 1,
 			"minecraft:hand_equipped": true,

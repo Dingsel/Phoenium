@@ -1,3 +1,4 @@
+//bridge-file-version: #0
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -50,7 +51,10 @@
 				"duration": 10,
 				"category": "phoenium_sword"
 			},
-			"minecraft:foil": true
+			"minecraft:foil": true,
+			"minecraft:display_name": {
+				"value": "§c§lPhoenium Sword\n§r§cAbility: Sacrifice §e§lRIGHT CLICK\n§r§7Consume all your§b Mana§7 and gain a §lSHIELD§r§7 for 5 seconds\n§8Mana Cost: §b20-60\n§8Cooldown: 10.0s\n\n§l§cSPECIAL ITEM"
+			}
 		},
 		"events": {
 			"shield": {

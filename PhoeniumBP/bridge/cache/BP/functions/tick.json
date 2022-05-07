@@ -1,0 +1,33 @@
+{
+	"file_path": "C:\\Users\\Luka\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\PhoeniumBP\\functions\\tick.json",
+	"file_type": "function_tick",
+	"format_version": 1,
+	"file_uuid": "732f8c1c_d28a_48ef_8b34_618148f3cddc",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"values": [
+						"first_join",
+						"fly_revoke",
+						"drop_tick",
+						"anti_cave",
+						"tickinings",
+						"phoenix_controll"
+					]
+				},
+				"key": "values",
+				"is_minified": true,
+				"children": [
+					"first_join",
+					"fly_revoke",
+					"drop_tick",
+					"anti_cave",
+					"tickinings",
+					"phoenix_controll"
+				]
+			}
+		]
+	}
+}

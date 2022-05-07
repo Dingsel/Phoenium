@@ -82,5 +82,9 @@
 	"varo:trophy": {
 		"textures": "varo_trophy",
 		"sound": "stone"
+	},
+	"varo:phoenium_leaves": {
+		"textures": "varo_phoenium_leaves",
+		"sound": "stone"
 	}
 }

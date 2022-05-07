@@ -1,0 +1,31 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "varo:upgrade"
+		},
+		"tags": [
+			"phoenium_forge",
+			"crafting_table"
+		],
+		"pattern": [
+			"DDD",
+			"DND",
+			"DDD"
+		],
+		"key": {
+			"D": {
+				"item": "minecraft:diamond"
+			},
+			"N": {
+				"item": "minecraft:netherite_ingot"
+			}
+		},
+		"result": [
+			{
+				"item": "varo:upgrade"
+			}
+		]
+	}
+}

@@ -10,6 +10,36 @@
 				},
 				"sounds/start"
 			]
+		},
+		"mob.leviathan.flop": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/leviathan/flop1",
+				"sounds/mob/leviathan/flop2",
+				"sounds/mob/leviathan/flop3",
+				"sounds/mob/leviathan/flop4"
+			]
+		},
+		"mob.leviathan.hurt": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/leviathan/hurt1",
+				"sounds/mob/leviathan/hurt2",
+				"sounds/mob/leviathan/hurt3",
+				"sounds/mob/leviathan/hurt4"
+			]
+		},
+		"mob.leviathan.step": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/leviathan/swim1",
+				"sounds/mob/leviathan/swim2",
+				"sounds/mob/leviathan/swim3",
+				"sounds/mob/leviathan/swim4",
+				"sounds/mob/leviathan/swim5",
+				"sounds/mob/leviathan/swim6",
+				"sounds/mob/leviathan/swim7"
+			]
 		}
 	}
 }

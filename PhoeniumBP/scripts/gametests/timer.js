@@ -1,6 +1,5 @@
 import { EntityQueryScoreOptions, EntityQueryOptions, world } from "mojang-minecraft";
 
-
 const kickable = new EntityQueryScoreOptions()
 kickable.objective = 'kickable'
 kickable.minScore = 1

@@ -1,0 +1,18 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.leviathan": {
+			"states": {
+				"default": {
+					"animations": [
+						"swim",
+						{
+							"swim": "variable.swim > 0.0"
+						}
+					]
+				}
+			}
+		}
+	}
+}

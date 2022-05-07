@@ -8,7 +8,7 @@
 			"phoenium_forge"
 		],
 		"pattern": [
-			"MPM",
+			"MGM",
 			"PNP",
 			"DRD"
 		],
@@ -24,6 +24,9 @@
 			},
 			"D": {
 				"item": "minecraft:diamond_pickaxe"
+			},
+			"G": {
+				"item": "varo:phoenix_gemstone"
 			},
 			"R": {
 				"item": "varo:wand"

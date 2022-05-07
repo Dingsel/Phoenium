@@ -26,7 +26,7 @@
 				}
 			},
 			"minecraft:display_name": {
-				"value": "§6§lFire Wand\n§r§6Ability: BURN EM §e§lRIGHT CLICK\n§r§7Shoot§2 Fire balls§7\n§8Mana Cost: §25\n§8Cooldown: §20.3s\n\n§l§6LEGENDARY ITEM"
+				"value": "§6§lFire Wand\n§r§6Ability: BURN EM §e§lRIGHT CLICK\n§r§7Shoot§2 Fire balls§7\n§8Mana Cost: §b5\n§8Cooldown: 0.3s\n\n§l§6LEGENDARY ITEM"
 			}
 		},
 		"events": {

@@ -1,0 +1,116 @@
+{
+	"file_path": "C:\\Users\\Luka\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\PhoeniumRP\\animation_controllers\\controler.animation.leviathan.json",
+	"file_type": "rp_animation_controller",
+	"format_version": 1,
+	"file_uuid": "9a39d188_8e30_4642_b1b0_53b7088ec839",
+	"file_version": 3,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"animation_controllers": {
+						"controller.animation.leviathan": {
+							"states": {
+								"default": {
+									"animations": [
+										"swim",
+										{
+											"swim": "variable.swim > 0.0"
+										}
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "animation_controllers",
+				"children": [
+					{
+						"open": {
+							"controller.animation.leviathan": {
+								"states": {
+									"default": {
+										"animations": [
+											"swim",
+											{
+												"swim": "variable.swim > 0.0"
+											}
+										]
+									}
+								}
+							}
+						},
+						"key": "controller.animation.leviathan",
+						"children": [
+							{
+								"open": {
+									"states": {
+										"default": {
+											"animations": [
+												"swim",
+												{
+													"swim": "variable.swim > 0.0"
+												}
+											]
+										}
+									}
+								},
+								"key": "states",
+								"children": [
+									{
+										"open": {
+											"default": {
+												"animations": [
+													"swim",
+													{
+														"swim": "variable.swim > 0.0"
+													}
+												]
+											}
+										},
+										"key": "default",
+										"children": [
+											{
+												"open": {
+													"animations": [
+														"swim",
+														{
+															"swim": "variable.swim > 0.0"
+														}
+													]
+												},
+												"key": "animations",
+												"children": [
+													{
+														"data": "swim"
+													},
+													{
+														"open": [
+															"swim",
+															{
+																"swim": "variable.swim > 0.0"
+															}
+														],
+														"is_minified": true,
+														"children": {
+															"swim": "variable.swim > 0.0"
+														}
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

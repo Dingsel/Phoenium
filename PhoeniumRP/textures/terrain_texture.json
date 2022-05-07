@@ -63,6 +63,9 @@
 		},
 		"varo_trophy": {
 			"textures": "textures/models/blocks/trophy"
+		},
+		"varo_phoenium_leaves": {
+			"textures": "textures/blocks/phoenium_leaves"
 		}
 	}
 }

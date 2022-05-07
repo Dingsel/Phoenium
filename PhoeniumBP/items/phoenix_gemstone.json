@@ -1,10 +1,17 @@
 {
-	"format_version": "1.16.0",
+	"format_version": "1.17.0",
 	"minecraft:item": {
 		"description": {
 			"identifier": "varo:phoenix_gemstone"
 		},
-		"components": {},
+		"components": {
+			"minecraft:icon" : {
+				"texture": "varo_phoenix_gemstone"
+			},
+			"minecraft:display_name": {
+				"value": "§6§lPhoenix Gemstone\n§r§7Used to craft§d unique Wands and Weapons\n\n§l§6LEGENDARY ITEM"
+			}
+		},
 		"events": {}
 	}
 }

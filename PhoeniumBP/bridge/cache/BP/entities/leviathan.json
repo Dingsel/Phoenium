@@ -1,0 +1,602 @@
+{
+	"file_path": "C:\\Users\\Luka\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\PhoeniumBP\\entities\\leviathan.json",
+	"file_type": "entity",
+	"format_version": 1,
+	"file_uuid": "16a3784c_18bb_48f4_b124_04c35aedbe30",
+	"file_version": 68,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:entity": {
+						"description": {
+							"identifier": "varo:leviathan",
+							"is_spawnable": true,
+							"is_summonable": true,
+							"is_experimental": false,
+							"runtime_identifier": "minecraft:salmon"
+						},
+						"components": {
+							"minecraft:type_family": {
+								"family": [
+									"leviathan",
+									"fish"
+								]
+							},
+							"minecraft:collision_box": {
+								"width": 1,
+								"height": 0.33
+							},
+							"minecraft:breathable": {
+								"total_supply": 15,
+								"suffocate_time": 0,
+								"breathes_air": false,
+								"breathes_water": true
+							},
+							"minecraft:underwater_movement": {
+								"value": 2
+							},
+							"minecraft:physics": {
+								"has_gravity": false
+							},
+							"minecraft:movement": {
+								"value": 0.5
+							},
+							"minecraft:scale": {
+								"value": 8
+							},
+							"minecraft:behavior.hurt_by_target": {
+								"priority": 1
+							},
+							"minecraft:behavior.nearest_attackable_target": {
+								"priority": 2,
+								"within_radius": 25,
+								"reselect_targets": true,
+								"entity_types": [
+									{
+										"filters": {},
+										"max_dist": 35
+									}
+								],
+								"must_see": true,
+								"must_see_forget_duration": 17
+							}
+						},
+						"events": {}
+					}
+				},
+				"data": "1.17.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.17.0",
+					"minecraft:entity": {
+						"description": {
+							"identifier": "varo:leviathan",
+							"is_spawnable": true,
+							"is_summonable": true,
+							"is_experimental": false,
+							"runtime_identifier": "minecraft:salmon"
+						},
+						"components": {
+							"minecraft:type_family": {
+								"family": [
+									"leviathan",
+									"fish"
+								]
+							},
+							"minecraft:collision_box": {
+								"width": 1,
+								"height": 0.33
+							},
+							"minecraft:breathable": {
+								"total_supply": 15,
+								"suffocate_time": 0,
+								"breathes_air": false,
+								"breathes_water": true
+							},
+							"minecraft:underwater_movement": {
+								"value": 2
+							},
+							"minecraft:physics": {
+								"has_gravity": false
+							},
+							"minecraft:movement": {
+								"value": 0.5
+							},
+							"minecraft:scale": {
+								"value": 8
+							},
+							"minecraft:behavior.hurt_by_target": {
+								"priority": 1
+							},
+							"minecraft:behavior.nearest_attackable_target": {
+								"priority": 2,
+								"within_radius": 25,
+								"reselect_targets": true,
+								"entity_types": [
+									{
+										"filters": {},
+										"max_dist": 35
+									}
+								],
+								"must_see": true,
+								"must_see_forget_duration": 17
+							}
+						},
+						"events": {}
+					}
+				},
+				"key": "minecraft:entity",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "varo:leviathan",
+							"is_spawnable": true,
+							"is_summonable": true,
+							"is_experimental": false,
+							"runtime_identifier": "minecraft:salmon"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "varo:leviathan",
+								"is_spawnable": true,
+								"is_summonable": true,
+								"is_experimental": false,
+								"runtime_identifier": "minecraft:salmon"
+							},
+							"components": {
+								"minecraft:type_family": {
+									"family": [
+										"leviathan",
+										"fish"
+									]
+								},
+								"minecraft:collision_box": {
+									"width": 1,
+									"height": 0.33
+								},
+								"minecraft:breathable": {
+									"total_supply": 15,
+									"suffocate_time": 0,
+									"breathes_air": false,
+									"breathes_water": true
+								},
+								"minecraft:underwater_movement": {
+									"value": 2
+								},
+								"minecraft:physics": {
+									"has_gravity": false
+								},
+								"minecraft:movement": {
+									"value": 0.5
+								},
+								"minecraft:scale": {
+									"value": 8
+								},
+								"minecraft:behavior.hurt_by_target": {
+									"priority": 1
+								},
+								"minecraft:behavior.nearest_attackable_target": {
+									"priority": 2,
+									"within_radius": 25,
+									"reselect_targets": true,
+									"entity_types": [
+										{
+											"filters": {},
+											"max_dist": 35
+										}
+									],
+									"must_see": true,
+									"must_see_forget_duration": 17
+								}
+							},
+							"events": {}
+						},
+						"key": "components",
+						"children": [
+							{
+								"key": "minecraft:type_family",
+								"children": [
+									{
+										"open": {
+											"family": [
+												"leviathan",
+												"fish"
+											]
+										},
+										"key": "family",
+										"is_minified": true,
+										"children": [
+											"leviathan",
+											"fish"
+										]
+									}
+								]
+							},
+							{
+								"key": "minecraft:collision_box",
+								"is_minified": true,
+								"children": {
+									"width": 1,
+									"height": 0.33
+								}
+							},
+							{
+								"key": "minecraft:breathable",
+								"is_minified": true,
+								"children": {
+									"total_supply": 15,
+									"suffocate_time": 0,
+									"breathes_air": false,
+									"breathes_water": true
+								}
+							},
+							{
+								"key": "minecraft:underwater_movement",
+								"is_minified": true,
+								"children": {
+									"value": 2
+								}
+							},
+							{
+								"key": "minecraft:physics",
+								"is_minified": true,
+								"children": {
+									"has_gravity": false
+								}
+							},
+							{
+								"open": {
+									"minecraft:type_family": {
+										"family": [
+											"leviathan",
+											"fish"
+										]
+									},
+									"minecraft:collision_box": {
+										"width": 1,
+										"height": 0.33
+									},
+									"minecraft:breathable": {
+										"total_supply": 15,
+										"suffocate_time": 0,
+										"breathes_air": false,
+										"breathes_water": true
+									},
+									"minecraft:underwater_movement": {
+										"value": 2
+									},
+									"minecraft:physics": {
+										"has_gravity": false
+									},
+									"minecraft:movement": {
+										"value": 0.5
+									},
+									"minecraft:scale": {
+										"value": 8
+									},
+									"minecraft:behavior.hurt_by_target": {
+										"priority": 1
+									},
+									"minecraft:behavior.nearest_attackable_target": {
+										"priority": 2,
+										"within_radius": 25,
+										"reselect_targets": true,
+										"entity_types": [
+											{
+												"filters": {},
+												"max_dist": 35
+											}
+										],
+										"must_see": true,
+										"must_see_forget_duration": 17
+									}
+								},
+								"key": "minecraft:movement",
+								"is_minified": true,
+								"children": {
+									"value": 0.5
+								}
+							},
+							{
+								"key": "minecraft:scale",
+								"is_minified": true,
+								"children": {
+									"value": 8
+								}
+							},
+							{
+								"open": {
+									"minecraft:type_family": {
+										"family": [
+											"leviathan",
+											"fish"
+										]
+									},
+									"minecraft:collision_box": {
+										"width": 1,
+										"height": 0.33
+									},
+									"minecraft:breathable": {
+										"total_supply": 15,
+										"suffocate_time": 0,
+										"breathes_air": false,
+										"breathes_water": true
+									},
+									"minecraft:underwater_movement": {
+										"value": 2
+									},
+									"minecraft:physics": {
+										"has_gravity": false
+									},
+									"minecraft:movement": {
+										"value": 0.5
+									},
+									"minecraft:scale": {
+										"value": 8
+									},
+									"minecraft:behavior.hurt_by_target": {
+										"priority": 1
+									},
+									"minecraft:behavior.nearest_attackable_target": {
+										"priority": 2,
+										"within_radius": 25,
+										"reselect_targets": true,
+										"entity_types": [
+											{
+												"filters": {},
+												"max_dist": 35
+											}
+										],
+										"must_see": true,
+										"must_see_forget_duration": 17
+									}
+								},
+								"key": "minecraft:behavior.hurt_by_target",
+								"is_minified": true,
+								"children": {
+									"priority": 1
+								}
+							},
+							{
+								"open": {
+									"minecraft:type_family": {
+										"family": [
+											"leviathan",
+											"fish"
+										]
+									},
+									"minecraft:collision_box": {
+										"width": 1,
+										"height": 0.33
+									},
+									"minecraft:breathable": {
+										"total_supply": 15,
+										"suffocate_time": 0,
+										"breathes_air": false,
+										"breathes_water": true
+									},
+									"minecraft:underwater_movement": {
+										"value": 2
+									},
+									"minecraft:physics": {
+										"has_gravity": false
+									},
+									"minecraft:movement": {
+										"value": 0.5
+									},
+									"minecraft:scale": {
+										"value": 8
+									},
+									"minecraft:behavior.hurt_by_target": {
+										"priority": 1
+									},
+									"minecraft:behavior.nearest_attackable_target": {
+										"priority": 2,
+										"within_radius": 25,
+										"reselect_targets": true,
+										"entity_types": [
+											{
+												"filters": {},
+												"max_dist": 35
+											}
+										],
+										"must_see": true,
+										"must_see_forget_duration": 17
+									}
+								},
+								"key": "minecraft:behavior.nearest_attackable_target",
+								"children": [
+									{
+										"open": {
+											"priority": 2,
+											"within_radius": 25,
+											"reselect_targets": true,
+											"entity_types": [
+												{
+													"filters": {},
+													"max_dist": 35
+												}
+											],
+											"must_see": true,
+											"must_see_forget_duration": 17
+										},
+										"data": "2",
+										"key": "priority"
+									},
+									{
+										"open": {
+											"priority": 2,
+											"within_radius": 25,
+											"reselect_targets": true,
+											"entity_types": [
+												{
+													"filters": {},
+													"max_dist": 35
+												}
+											],
+											"must_see": true,
+											"must_see_forget_duration": 17
+										},
+										"data": "25",
+										"key": "within_radius"
+									},
+									{
+										"open": {
+											"priority": 2,
+											"within_radius": 25,
+											"reselect_targets": true,
+											"entity_types": [
+												{
+													"filters": {},
+													"max_dist": 35
+												}
+											],
+											"must_see": true,
+											"must_see_forget_duration": 17
+										},
+										"data": "true",
+										"key": "reselect_targets"
+									},
+									{
+										"open": {
+											"priority": 2,
+											"within_radius": 25,
+											"reselect_targets": true,
+											"entity_types": [
+												{
+													"filters": {},
+													"max_dist": 35
+												}
+											],
+											"must_see": true,
+											"must_see_forget_duration": 17
+										},
+										"key": "entity_types",
+										"children": [
+											{
+												"open": [
+													{
+														"filters": {},
+														"max_dist": 35
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"filters": {},
+													"max_dist": 35
+												}
+											}
+										]
+									},
+									{
+										"open": {
+											"priority": 2,
+											"within_radius": 25,
+											"reselect_targets": true,
+											"entity_types": [
+												{
+													"filters": {},
+													"max_dist": 35
+												}
+											],
+											"must_see": true,
+											"must_see_forget_duration": 17
+										},
+										"data": "true",
+										"key": "must_see"
+									},
+									{
+										"open": {
+											"priority": 2,
+											"within_radius": 25,
+											"reselect_targets": true,
+											"entity_types": [
+												{
+													"filters": {},
+													"max_dist": 35
+												}
+											],
+											"must_see": true,
+											"must_see_forget_duration": 17
+										},
+										"data": "17",
+										"key": "must_see_forget_duration"
+									}
+								]
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "varo:leviathan",
+								"is_spawnable": true,
+								"is_summonable": true,
+								"is_experimental": false,
+								"runtime_identifier": "minecraft:salmon"
+							},
+							"components": {
+								"minecraft:type_family": {
+									"family": [
+										"leviathan",
+										"fish"
+									]
+								},
+								"minecraft:collision_box": {
+									"width": 1,
+									"height": 0.33
+								},
+								"minecraft:breathable": {
+									"total_supply": 15,
+									"suffocate_time": 0,
+									"breathes_air": false,
+									"breathes_water": true
+								},
+								"minecraft:underwater_movement": {
+									"value": 2
+								},
+								"minecraft:physics": {
+									"has_gravity": false
+								},
+								"minecraft:movement": {
+									"value": 0.5
+								},
+								"minecraft:scale": {
+									"value": 8
+								},
+								"minecraft:behavior.hurt_by_target": {
+									"priority": 1
+								},
+								"minecraft:behavior.nearest_attackable_target": {
+									"priority": 2,
+									"within_radius": 25,
+									"reselect_targets": true,
+									"entity_types": [
+										{
+											"filters": {},
+											"max_dist": 35
+										}
+									],
+									"must_see": true,
+									"must_see_forget_duration": 17
+								}
+							},
+							"events": {}
+						},
+						"key": "events",
+						"is_minified": true,
+						"children": {}
+					}
+				]
+			}
+		]
+	}
+}

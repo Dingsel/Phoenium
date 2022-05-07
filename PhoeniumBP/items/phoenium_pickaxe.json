@@ -1,3 +1,4 @@
+//bridge-file-version: #1
 {
 	"format_version": "1.16.100",
 	"minecraft:item": {
@@ -26,12 +27,6 @@
 				"use_efficiency": true,
 				"destroy_speeds": [
 					{
-						"block": {
-							"tags": "query.any_tag('stone', 'metal', 'diamond_pick_diggable', '*')"
-						},
-						"speed": 10
-					},
-					{
 						"block": "minecraft:ice",
 						"speed": 10
 					},
@@ -50,6 +45,11 @@
 					{
 						"block": "minecraft:red_sandstone",
 						"speed": 10
+					},
+					{
+						"block": {
+							"tags": "q.any_tag('stone', 'metal', 'iron_pick_diggable')"
+						}
 					}
 				]
 			},

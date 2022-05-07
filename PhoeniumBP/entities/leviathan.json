@@ -1,0 +1,61 @@
+//bridge-file-version: #68
+{
+	"format_version": "1.17.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "varo:leviathan",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false,
+			"runtime_identifier": "minecraft:salmon"
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [
+					"leviathan",
+					"fish"
+				]
+			},
+			"minecraft:collision_box": {
+				"width": 1,
+				"height": 0.33
+			},
+			"minecraft:breathable": {
+				"total_supply": 15,
+				"suffocate_time": 0,
+				"breathes_air": false,
+				"breathes_water": true
+			},
+			"minecraft:underwater_movement": {
+				"value": 2
+			},
+			"minecraft:physics": {
+				"has_gravity": false
+			},
+			"minecraft:movement": {
+				"value": 0.5
+			},
+			"minecraft:scale": {
+				"value": 8
+			},
+			"minecraft:behavior.hurt_by_target": {
+				"priority": 1
+			},
+			"minecraft:behavior.nearest_attackable_target": {
+				"priority": 2,
+				"within_radius": 25,
+				"reselect_targets": true,
+				"entity_types": [
+					{
+						"filters": {},
+						"max_dist": 35
+					}
+				],
+				"must_see": true,
+				"must_see_forget_duration": 17
+			}
+		},
+		"events": {},
+		"component_groups": {}
+	}
+}

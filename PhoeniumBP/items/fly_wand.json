@@ -11,7 +11,7 @@
 				"parent": "itemGroup.name.sword"
 			},
 			"minecraft:display_name": {
-				"value": "§6§lFly Wand\n§r§6Ability: Fly §e§lRIGHT CLICK\n§r§7Consumes Mana for the Abillity to§2 Fly§7\n§8Mana Cost: §210\n§8Cooldown: §23.0s\n\n§l§6LEGENDARY ITEM"
+				"value": "§6§lFly Wand\n§r§6Ability: Fly §e§lRIGHT CLICK\n§r§7Consumes Mana for the Abillity to§2 Fly§7\n§8Mana Cost: §b10/s\n§8Cooldown: 3.0s\n\n§l§6LEGENDARY ITEM"
 			},
 			"minecraft:max_stack_size": 1,
 			"minecraft:hand_equipped": true,

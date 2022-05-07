@@ -1,0 +1,97 @@
+{
+	"file_path": "C:\\Users\\Luka\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\PhoeniumBP\\items\\mana_amulet.json",
+	"file_type": "item",
+	"format_version": 1,
+	"file_uuid": "1d2f9429_15cc_4e63_85b7_69502e4da39c",
+	"file_version": 2,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:item": {
+						"description": {
+							"category": "equipment",
+							"identifier": "varo:mana_amulet"
+						},
+						"components": {
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.sword"
+							},
+							"minecraft:max_stack_size": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:icon": {
+								"texture": "varo_mana_amulet"
+							},
+							"minecraft:can_destroy_in_creative": false
+						}
+					}
+				},
+				"key": "minecraft:item",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"category": "equipment",
+								"identifier": "varo:mana_amulet"
+							},
+							"components": {
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
+								},
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:icon": {
+									"texture": "varo_mana_amulet"
+								},
+								"minecraft:can_destroy_in_creative": false
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"category": "equipment",
+							"identifier": "varo:mana_amulet"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"category": "equipment",
+								"identifier": "varo:mana_amulet"
+							},
+							"components": {
+								"minecraft:creative_category": {
+									"parent": "itemGroup.name.sword"
+								},
+								"minecraft:max_stack_size": 1,
+								"minecraft:hand_equipped": true,
+								"minecraft:icon": {
+									"texture": "varo_mana_amulet"
+								},
+								"minecraft:can_destroy_in_creative": false
+							}
+						},
+						"key": "components",
+						"is_minified": true,
+						"children": {
+							"minecraft:creative_category": {
+								"parent": "itemGroup.name.sword"
+							},
+							"minecraft:max_stack_size": 1,
+							"minecraft:hand_equipped": true,
+							"minecraft:icon": {
+								"texture": "varo_mana_amulet"
+							},
+							"minecraft:can_destroy_in_creative": false
+						}
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,4 +1,4 @@
-//bridge-file-version: #0
+//bridge-file-version: #4
 {
 	"format_version": "1.17.0",
 	"minecraft:entity": {
@@ -52,6 +52,20 @@
 				},
 				"minecraft:spell_effects": {
 					"remove_effects": "bad_omen"
+				}
+			},
+			"health1": {
+				"minecraft:health": {
+					"value": 24,
+					"max": 24,
+					"min": 0
+				}
+			},
+			"health2": {
+				"minecraft:health": {
+					"value": 28,
+					"max": 28,
+					"min": 0
 				}
 			}
 		},
@@ -412,6 +426,13 @@
 			}
 		},
 		"events": {
+			"minecraft:trigger_raid": {
+				"add": {
+					"component_groups": [
+						"minecraft:raid_trigger"
+					]
+				}
+			},
 			"minecraft:gain_bad_omen": {
 				"add": {
 					"component_groups": [
@@ -428,13 +449,6 @@
 				"add": {
 					"component_groups": [
 						"minecraft:clear_bad_omen_spell_effect"
-					]
-				}
-			},
-			"minecraft:trigger_raid": {
-				"add": {
-					"component_groups": [
-						"minecraft:raid_trigger"
 					]
 				}
 			},
@@ -455,6 +469,13 @@
 						}
 					}
 				]
+			},
+			"health1": {
+				"add": {
+					"component_groups": [
+						"health1"
+					]
+				}
 			}
 		}
 	}

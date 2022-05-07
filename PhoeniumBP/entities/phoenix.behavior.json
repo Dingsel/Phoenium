@@ -1,3 +1,4 @@
+//bridge-file-version: #36
 {
 	"format_version": "1.16.100",
 	"minecraft:entity": {
@@ -19,15 +20,63 @@
 				"value": 1
 			},
 			"minecraft:boss": {
-				"hud_range": 125,
+				"hud_range": 20,
 				"name": "Dark Phoenix",
 				"should_darken_sky": true
 			},
 			"minecraft:health": {
-				"value": 1000
+				"value": 20
+			},
+			"minecraft:rideable": {
+				"seats": [
+					{
+						"max_rider_count": 1,
+						"position": [
+							0,
+							0.75,
+							0
+						],
+						"rotate_rider_by": 180
+					}
+				],
+				"seat_count": 1,
+				"controlling_seat": 1,
+				"crouching_skip_interact": false
+			},
+			"minecraft:behavior.controlled_by_player": {},
+			"minecraft:horse.jump_strength": {
+				"value": 0
+			},
+			"minecraft:can_power_jump": {},
+			"minecraft:input_ground_controlled": {},
+			"minecraft:scale": {
+				"value": 1.5
+			},
+			"minecraft:collision_box": {
+				"width": 1,
+				"height": 1
+			},
+			"minecraft:flying_speed": {
+				"value": 2
+			},
+			"minecraft:movement": {
+				"value": 1
+			},
+			"minecraft:movement.fly": {}
+		},
+		"component_groups": {
+			"despawn": {
+				"minecraft:instant_despawn": {}
 			}
 		},
-		"component_groups": {},
-		"events": {}
+		"events": {
+			"despawn": {
+				"add": {
+					"component_groups": [
+						"despawn"
+					]
+				}
+			}
+		}
 	}
 }

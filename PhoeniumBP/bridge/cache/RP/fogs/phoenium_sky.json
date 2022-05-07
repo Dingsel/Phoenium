@@ -1,0 +1,162 @@
+{
+	"file_path": "C:\\Users\\Luka\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\PhoeniumRP\\fogs\\phoenium_sky.json",
+	"file_type": "fog",
+	"format_version": 1,
+	"file_uuid": "9c4378e3_9cf1_4eb1_885d_d2e379b93b54",
+	"file_version": 5,
+	"cache_content": {
+		"children": [
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:fog_settings": {
+						"description": {
+							"identifier": "varo:phoenium_sky"
+						},
+						"distance": {
+							"air": {
+								"fog_start": 0,
+								"fog_end": 128,
+								"render_distance_type": "fixed",
+								"fog_color": "#FF2727"
+							},
+							"weather": {
+								"fog_color": "#FF2727",
+								"fog_start": 0,
+								"fog_end": 128,
+								"render_distance_type": "fixed"
+							}
+						}
+					}
+				},
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:fog_settings": {
+						"description": {
+							"identifier": "varo:phoenium_sky"
+						},
+						"distance": {
+							"air": {
+								"fog_start": 0,
+								"fog_end": 128,
+								"render_distance_type": "fixed",
+								"fog_color": "#FF2727"
+							},
+							"weather": {
+								"fog_color": "#FF2727",
+								"fog_start": 0,
+								"fog_end": 128,
+								"render_distance_type": "fixed"
+							}
+						}
+					}
+				},
+				"key": "minecraft:fog_settings",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "varo:phoenium_sky"
+							},
+							"distance": {
+								"air": {
+									"fog_start": 0,
+									"fog_end": 128,
+									"render_distance_type": "fixed",
+									"fog_color": "#FF2727"
+								},
+								"weather": {
+									"fog_color": "#FF2727",
+									"fog_start": 0,
+									"fog_end": 128,
+									"render_distance_type": "fixed"
+								}
+							}
+						},
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "varo:phoenium_sky"
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "varo:phoenium_sky"
+							},
+							"distance": {
+								"air": {
+									"fog_start": 0,
+									"fog_end": 128,
+									"render_distance_type": "fixed",
+									"fog_color": "#FF2727"
+								},
+								"weather": {
+									"fog_color": "#FF2727",
+									"fog_start": 0,
+									"fog_end": 128,
+									"render_distance_type": "fixed"
+								}
+							}
+						},
+						"key": "distance",
+						"children": [
+							{
+								"open": {
+									"air": {
+										"fog_start": 0,
+										"fog_end": 128,
+										"render_distance_type": "fixed",
+										"fog_color": "#FF2727"
+									},
+									"weather": {
+										"fog_color": "#FF2727",
+										"fog_start": 0,
+										"fog_end": 128,
+										"render_distance_type": "fixed"
+									}
+								},
+								"key": "air",
+								"is_minified": true,
+								"children": {
+									"fog_start": 0,
+									"fog_end": 128,
+									"render_distance_type": "fixed",
+									"fog_color": "#FF2727"
+								}
+							},
+							{
+								"open": {
+									"air": {
+										"fog_start": 0,
+										"fog_end": 128,
+										"render_distance_type": "fixed",
+										"fog_color": "#FF2727"
+									},
+									"weather": {
+										"fog_color": "#FF2727",
+										"fog_start": 0,
+										"fog_end": 128,
+										"render_distance_type": "fixed"
+									}
+								},
+								"key": "weather",
+								"is_minified": true,
+								"children": {
+									"fog_color": "#FF2727",
+									"fog_start": 0,
+									"fog_end": 128,
+									"render_distance_type": "fixed"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

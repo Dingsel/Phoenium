@@ -1,8 +1,11 @@
-effect @a[tag=!joined] regeneration 15 5 true
-effect @a[tag=!joined] resistance 15 5 true
-effect @a[tag=!joined,scores={hp=0}] health_boost 0 0 true
-effect @a[tag=!joined,scores={hp=2}] health_boost 9999999 0 true
-effect @a[tag=!joined,scores={hp=4}] health_boost 9999999 1 true
-effect @a[tag=!joined,scores={hp=6}] health_boost 9999999 2 true
-tell @a[tag=!joined] §lYou feel the power of the Phoenix going through my boddy...
+#bridge-file-version: #4
+execute @a[tag=!joined] ~ ~ ~ scoreboard objectives add mana dummy mana
+execute @a[tag=!joined] ~ ~ ~ scoreboard objectives add mastery dummy mastery
+execute @a[tag=!joined] ~ ~ ~ scoreboard objectives add hp dummy hp
+execute @a[tag=!joined] ~ ~ ~ scoreboard objectives add light dummy light
+execute @a[tag=!joined] ~ ~ ~ scoreboard objectives add event dummy event
+execute @a[tag=!joined] ~ ~ ~ scoreboard objectives add timer dummy timer
+execute @a[tag=!joined] ~ ~ ~ scoreboard objectives add revive dummy revive
+execute @a[tag=!joined] ~ ~ ~ scoreboard objectives add toxinlevel dummy toxinlevel
+execute @a[tag=!joined] ~ ~ ~ scoreboard objectives add fly dummy fly
 tag @a add joined

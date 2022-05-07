@@ -1,0 +1,383 @@
+{
+	"file_path": "C:\\Users\\Luka\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_resource_packs\\PhoeniumRP\\entity\\leviathan.json",
+	"file_type": "client_entity",
+	"format_version": 1,
+	"file_uuid": "d0ffcd34_d56e_4b1a_a1e6_2a7ba29e55a3",
+	"file_version": 12,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.10.0",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.10.0",
+					"minecraft:client_entity": {
+						"description": {
+							"identifier": "varo:leviathan",
+							"materials": {
+								"default": "entity_alphatest"
+							},
+							"textures": {
+								"default": "textures/entity/fish/leviathan"
+							},
+							"geometry": {
+								"default": "geometry.leviathan"
+							},
+							"render_controllers": [
+								"controller.render.default"
+							],
+							"spawn_egg": {
+								"texture": "spawn_egg",
+								"texture_index": 47
+							},
+							"scripts": {
+								"pre_animation": [
+									"variable.swim = math.sin(query.life_time);"
+								],
+								"animate": [
+									{
+										"swim": "query.is_in_water"
+									}
+								]
+							},
+							"animations": {
+								"swim": "animation.leviathan.swim"
+							}
+						}
+					}
+				},
+				"key": "minecraft:client_entity",
+				"children": [
+					{
+						"open": {
+							"description": {
+								"identifier": "varo:leviathan",
+								"materials": {
+									"default": "entity_alphatest"
+								},
+								"textures": {
+									"default": "textures/entity/fish/leviathan"
+								},
+								"geometry": {
+									"default": "geometry.leviathan"
+								},
+								"render_controllers": [
+									"controller.render.default"
+								],
+								"spawn_egg": {
+									"texture": "spawn_egg",
+									"texture_index": 47
+								},
+								"scripts": {
+									"pre_animation": [
+										"variable.swim = math.sin(query.life_time);"
+									],
+									"animate": [
+										{
+											"swim": "query.is_in_water"
+										}
+									]
+								},
+								"animations": {
+									"swim": "animation.leviathan.swim"
+								}
+							}
+						},
+						"key": "description",
+						"children": [
+							{
+								"data": "varo:leviathan",
+								"key": "identifier"
+							},
+							{
+								"open": {
+									"identifier": "varo:leviathan",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"textures": {
+										"default": "textures/entity/fish/leviathan"
+									},
+									"geometry": {
+										"default": "geometry.leviathan"
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {
+										"texture": "spawn_egg",
+										"texture_index": 47
+									},
+									"scripts": {
+										"pre_animation": [
+											"variable.swim = math.sin(query.life_time);"
+										],
+										"animate": [
+											{
+												"swim": "query.is_in_water"
+											}
+										]
+									},
+									"animations": {
+										"swim": "animation.leviathan.swim"
+									}
+								},
+								"key": "materials",
+								"is_minified": true,
+								"children": {
+									"default": "entity_alphatest"
+								}
+							},
+							{
+								"open": {
+									"identifier": "varo:leviathan",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"textures": {
+										"default": "textures/entity/fish/leviathan"
+									},
+									"geometry": {
+										"default": "geometry.leviathan"
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {
+										"texture": "spawn_egg",
+										"texture_index": 47
+									},
+									"scripts": {
+										"pre_animation": [
+											"variable.swim = math.sin(query.life_time);"
+										],
+										"animate": [
+											{
+												"swim": "query.is_in_water"
+											}
+										]
+									},
+									"animations": {
+										"swim": "animation.leviathan.swim"
+									}
+								},
+								"key": "textures",
+								"is_minified": true,
+								"children": {
+									"default": "textures/entity/fish/leviathan"
+								}
+							},
+							{
+								"open": {
+									"identifier": "varo:leviathan",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"textures": {
+										"default": "textures/entity/fish/leviathan"
+									},
+									"geometry": {
+										"default": "geometry.leviathan"
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {
+										"texture": "spawn_egg",
+										"texture_index": 47
+									},
+									"scripts": {
+										"pre_animation": [
+											"variable.swim = math.sin(query.life_time);"
+										],
+										"animate": [
+											{
+												"swim": "query.is_in_water"
+											}
+										]
+									},
+									"animations": {
+										"swim": "animation.leviathan.swim"
+									}
+								},
+								"key": "geometry",
+								"is_minified": true,
+								"children": {
+									"default": "geometry.leviathan"
+								}
+							},
+							{
+								"open": {
+									"identifier": "varo:leviathan",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"textures": {
+										"default": "textures/entity/fish/leviathan"
+									},
+									"geometry": {
+										"default": "geometry.leviathan"
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {
+										"texture": "spawn_egg",
+										"texture_index": 47
+									},
+									"scripts": {
+										"pre_animation": [
+											"variable.swim = math.sin(query.life_time);"
+										],
+										"animate": [
+											{
+												"swim": "query.is_in_water"
+											}
+										]
+									},
+									"animations": {
+										"swim": "animation.leviathan.swim"
+									}
+								},
+								"key": "render_controllers",
+								"is_minified": true,
+								"children": [
+									"controller.render.default"
+								]
+							},
+							{
+								"open": {
+									"identifier": "varo:leviathan",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"textures": {
+										"default": "textures/entity/fish/leviathan"
+									},
+									"geometry": {
+										"default": "geometry.leviathan"
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {
+										"texture": "spawn_egg",
+										"texture_index": 47
+									},
+									"scripts": {
+										"pre_animation": [
+											"variable.swim = math.sin(query.life_time);"
+										],
+										"animate": [
+											{
+												"swim": "query.is_in_water"
+											}
+										]
+									},
+									"animations": {
+										"swim": "animation.leviathan.swim"
+									}
+								},
+								"key": "spawn_egg",
+								"is_minified": true,
+								"children": {
+									"texture": "spawn_egg",
+									"texture_index": 47
+								}
+							},
+							{
+								"open": {
+									"identifier": "varo:leviathan",
+									"materials": {
+										"default": "entity_alphatest"
+									},
+									"textures": {
+										"default": "textures/entity/fish/leviathan"
+									},
+									"geometry": {
+										"default": "geometry.leviathan"
+									},
+									"render_controllers": [
+										"controller.render.default"
+									],
+									"spawn_egg": {
+										"texture": "spawn_egg",
+										"texture_index": 47
+									},
+									"scripts": {
+										"pre_animation": [
+											"variable.swim = math.sin(query.life_time);"
+										],
+										"animate": [
+											{
+												"swim": "query.is_in_water"
+											}
+										]
+									},
+									"animations": {
+										"swim": "animation.leviathan.swim"
+									}
+								},
+								"key": "scripts",
+								"children": [
+									{
+										"open": {
+											"pre_animation": [
+												"variable.swim = math.sin(query.life_time);"
+											],
+											"animate": [
+												{
+													"swim": "query.is_in_water"
+												}
+											]
+										},
+										"key": "pre_animation",
+										"is_minified": true,
+										"children": [
+											"variable.swim = math.sin(query.life_time);"
+										]
+									},
+									{
+										"open": {
+											"pre_animation": [
+												"variable.swim = math.sin(query.life_time);"
+											],
+											"animate": [
+												{
+													"swim": "query.is_in_water"
+												}
+											]
+										},
+										"key": "animate",
+										"children": [
+											{
+												"open": [
+													{
+														"swim": "query.is_in_water"
+													}
+												],
+												"is_minified": true,
+												"children": {
+													"swim": "query.is_in_water"
+												}
+											}
+										]
+									}
+								]
+							},
+							{
+								"key": "animations",
+								"is_minified": true,
+								"children": {
+									"swim": "animation.leviathan.swim"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

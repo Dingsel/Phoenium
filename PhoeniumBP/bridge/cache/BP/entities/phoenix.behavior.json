@@ -1,0 +1,897 @@
+{
+	"file_path": "C:\\Users\\Luka\\AppData\\Local\\Packages\\Microsoft.MinecraftUWP_8wekyb3d8bbwe\\LocalState\\games\\com.mojang\\development_behavior_packs\\PhoeniumBP\\entities\\phoenix.behavior.json",
+	"file_type": "entity",
+	"format_version": 1,
+	"file_uuid": "5e5a01c3_4ef3_4637_ba5d_d78cdf72aed9",
+	"file_version": 36,
+	"cache_content": {
+		"children": [
+			{
+				"data": "1.16.100",
+				"key": "format_version"
+			},
+			{
+				"open": {
+					"format_version": "1.16.100",
+					"minecraft:entity": {
+						"description": {
+							"identifier": "varo:phoenix",
+							"is_spawnable": true,
+							"is_summonable": true,
+							"is_experimental": false
+						},
+						"components": {
+							"minecraft:physics": {
+								"has_gravity": true,
+								"has_collision": true
+							},
+							"minecraft:pushable": {
+								"is_pushable": false
+							},
+							"minecraft:push_through": {
+								"value": 1
+							},
+							"minecraft:boss": {
+								"hud_range": 20,
+								"name": "Dark Phoenix",
+								"should_darken_sky": true
+							},
+							"minecraft:health": {
+								"value": 20
+							},
+							"minecraft:rideable": {
+								"seats": [
+									{
+										"max_rider_count": 1,
+										"position": [
+											0,
+											0.75,
+											0
+										],
+										"rotate_rider_by": 180
+									}
+								],
+								"seat_count": 1,
+								"controlling_seat": 1,
+								"crouching_skip_interact": false
+							},
+							"minecraft:behavior.controlled_by_player": {},
+							"minecraft:horse.jump_strength": {
+								"value": 0
+							},
+							"minecraft:can_power_jump": {},
+							"minecraft:input_ground_controlled": {},
+							"minecraft:scale": {
+								"value": 1.5
+							},
+							"minecraft:collision_box": {
+								"width": 1,
+								"height": 1
+							},
+							"minecraft:flying_speed": {
+								"value": 2
+							},
+							"minecraft:movement": {
+								"value": 1
+							},
+							"minecraft:movement.fly": {}
+						},
+						"component_groups": {
+							"despawn": {
+								"minecraft:instant_despawn": {}
+							}
+						},
+						"events": {
+							"despawn": {
+								"add": {
+									"component_groups": [
+										"despawn"
+									]
+								}
+							}
+						}
+					}
+				},
+				"key": "minecraft:entity",
+				"children": [
+					{
+						"key": "description",
+						"is_minified": true,
+						"children": {
+							"identifier": "varo:phoenix",
+							"is_spawnable": true,
+							"is_summonable": true,
+							"is_experimental": false
+						}
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "varo:phoenix",
+								"is_spawnable": true,
+								"is_summonable": true,
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:physics": {
+									"has_gravity": true,
+									"has_collision": true
+								},
+								"minecraft:pushable": {
+									"is_pushable": false
+								},
+								"minecraft:push_through": {
+									"value": 1
+								},
+								"minecraft:boss": {
+									"hud_range": 20,
+									"name": "Dark Phoenix",
+									"should_darken_sky": true
+								},
+								"minecraft:health": {
+									"value": 20
+								},
+								"minecraft:rideable": {
+									"seats": [
+										{
+											"max_rider_count": 1,
+											"position": [
+												0,
+												0.75,
+												0
+											],
+											"rotate_rider_by": 180
+										}
+									],
+									"seat_count": 1,
+									"controlling_seat": 1,
+									"crouching_skip_interact": false
+								},
+								"minecraft:behavior.controlled_by_player": {},
+								"minecraft:horse.jump_strength": {
+									"value": 0
+								},
+								"minecraft:can_power_jump": {},
+								"minecraft:input_ground_controlled": {},
+								"minecraft:scale": {
+									"value": 1.5
+								},
+								"minecraft:collision_box": {
+									"width": 1,
+									"height": 1
+								},
+								"minecraft:flying_speed": {
+									"value": 2
+								},
+								"minecraft:movement": {
+									"value": 1
+								},
+								"minecraft:movement.fly": {}
+							},
+							"component_groups": {
+								"despawn": {
+									"minecraft:instant_despawn": {}
+								}
+							},
+							"events": {
+								"despawn": {
+									"add": {
+										"component_groups": [
+											"despawn"
+										]
+									}
+								}
+							}
+						},
+						"key": "components",
+						"children": [
+							{
+								"key": "minecraft:physics",
+								"is_minified": true,
+								"children": {
+									"has_gravity": true,
+									"has_collision": true
+								}
+							},
+							{
+								"key": "minecraft:pushable",
+								"is_minified": true,
+								"children": {
+									"is_pushable": false
+								}
+							},
+							{
+								"key": "minecraft:push_through",
+								"is_minified": true,
+								"children": {
+									"value": 1
+								}
+							},
+							{
+								"key": "minecraft:boss",
+								"is_minified": true,
+								"children": {
+									"hud_range": 20,
+									"name": "Dark Phoenix",
+									"should_darken_sky": true
+								}
+							},
+							{
+								"key": "minecraft:health",
+								"is_minified": true,
+								"children": {
+									"value": 20
+								}
+							},
+							{
+								"key": "minecraft:rideable",
+								"children": [
+									{
+										"open": {
+											"seats": [
+												{
+													"max_rider_count": 1,
+													"position": [
+														0,
+														0.75,
+														0
+													],
+													"rotate_rider_by": 180
+												}
+											],
+											"seat_count": 1,
+											"controlling_seat": 1,
+											"crouching_skip_interact": false
+										},
+										"key": "seats",
+										"children": [
+											{
+												"open": [
+													{
+														"max_rider_count": 1,
+														"position": [
+															0,
+															0.75,
+															0
+														],
+														"rotate_rider_by": 180
+													}
+												],
+												"children": [
+													{
+														"data": "1",
+														"key": "max_rider_count"
+													},
+													{
+														"open": {
+															"max_rider_count": 1,
+															"position": [
+																0,
+																0.75,
+																0
+															],
+															"rotate_rider_by": 180
+														},
+														"key": "position",
+														"is_minified": true,
+														"children": [
+															0,
+															0.75,
+															0
+														]
+													},
+													{
+														"data": "180",
+														"key": "rotate_rider_by"
+													}
+												]
+											}
+										]
+									},
+									{
+										"data": "1",
+										"key": "seat_count"
+									},
+									{
+										"data": "1",
+										"key": "controlling_seat"
+									},
+									{
+										"data": "false",
+										"key": "crouching_skip_interact"
+									}
+								]
+							},
+							{
+								"open": {
+									"minecraft:physics": {
+										"has_gravity": true,
+										"has_collision": true
+									},
+									"minecraft:pushable": {
+										"is_pushable": false
+									},
+									"minecraft:push_through": {
+										"value": 1
+									},
+									"minecraft:boss": {
+										"hud_range": 20,
+										"name": "Dark Phoenix",
+										"should_darken_sky": true
+									},
+									"minecraft:health": {
+										"value": 20
+									},
+									"minecraft:rideable": {
+										"seats": [
+											{
+												"max_rider_count": 1,
+												"position": [
+													0,
+													0.75,
+													0
+												],
+												"rotate_rider_by": 180
+											}
+										],
+										"seat_count": 1,
+										"controlling_seat": 1,
+										"crouching_skip_interact": false
+									},
+									"minecraft:behavior.controlled_by_player": {},
+									"minecraft:horse.jump_strength": {
+										"value": 0
+									},
+									"minecraft:can_power_jump": {},
+									"minecraft:input_ground_controlled": {},
+									"minecraft:scale": {
+										"value": 1.5
+									},
+									"minecraft:collision_box": {
+										"width": 1,
+										"height": 1
+									},
+									"minecraft:flying_speed": {
+										"value": 2
+									},
+									"minecraft:movement": {
+										"value": 1
+									},
+									"minecraft:movement.fly": {}
+								},
+								"key": "minecraft:behavior.controlled_by_player",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"open": {
+									"minecraft:physics": {
+										"has_gravity": true,
+										"has_collision": true
+									},
+									"minecraft:pushable": {
+										"is_pushable": false
+									},
+									"minecraft:push_through": {
+										"value": 1
+									},
+									"minecraft:boss": {
+										"hud_range": 20,
+										"name": "Dark Phoenix",
+										"should_darken_sky": true
+									},
+									"minecraft:health": {
+										"value": 20
+									},
+									"minecraft:rideable": {
+										"seats": [
+											{
+												"max_rider_count": 1,
+												"position": [
+													0,
+													0.75,
+													0
+												],
+												"rotate_rider_by": 180
+											}
+										],
+										"seat_count": 1,
+										"controlling_seat": 1,
+										"crouching_skip_interact": false
+									},
+									"minecraft:behavior.controlled_by_player": {},
+									"minecraft:horse.jump_strength": {
+										"value": 0
+									},
+									"minecraft:can_power_jump": {},
+									"minecraft:input_ground_controlled": {},
+									"minecraft:scale": {
+										"value": 1.5
+									},
+									"minecraft:collision_box": {
+										"width": 1,
+										"height": 1
+									},
+									"minecraft:flying_speed": {
+										"value": 2
+									},
+									"minecraft:movement": {
+										"value": 1
+									},
+									"minecraft:movement.fly": {}
+								},
+								"key": "minecraft:horse.jump_strength",
+								"is_minified": true,
+								"children": {
+									"value": 0
+								}
+							},
+							{
+								"open": {
+									"minecraft:physics": {
+										"has_gravity": true,
+										"has_collision": true
+									},
+									"minecraft:pushable": {
+										"is_pushable": false
+									},
+									"minecraft:push_through": {
+										"value": 1
+									},
+									"minecraft:boss": {
+										"hud_range": 20,
+										"name": "Dark Phoenix",
+										"should_darken_sky": true
+									},
+									"minecraft:health": {
+										"value": 20
+									},
+									"minecraft:rideable": {
+										"seats": [
+											{
+												"max_rider_count": 1,
+												"position": [
+													0,
+													0.75,
+													0
+												],
+												"rotate_rider_by": 180
+											}
+										],
+										"seat_count": 1,
+										"controlling_seat": 1,
+										"crouching_skip_interact": false
+									},
+									"minecraft:behavior.controlled_by_player": {},
+									"minecraft:horse.jump_strength": {
+										"value": 0
+									},
+									"minecraft:can_power_jump": {},
+									"minecraft:input_ground_controlled": {},
+									"minecraft:scale": {
+										"value": 1.5
+									},
+									"minecraft:collision_box": {
+										"width": 1,
+										"height": 1
+									},
+									"minecraft:flying_speed": {
+										"value": 2
+									},
+									"minecraft:movement": {
+										"value": 1
+									},
+									"minecraft:movement.fly": {}
+								},
+								"key": "minecraft:can_power_jump",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"open": {
+									"minecraft:physics": {
+										"has_gravity": true,
+										"has_collision": true
+									},
+									"minecraft:pushable": {
+										"is_pushable": false
+									},
+									"minecraft:push_through": {
+										"value": 1
+									},
+									"minecraft:boss": {
+										"hud_range": 20,
+										"name": "Dark Phoenix",
+										"should_darken_sky": true
+									},
+									"minecraft:health": {
+										"value": 20
+									},
+									"minecraft:rideable": {
+										"seats": [
+											{
+												"max_rider_count": 1,
+												"position": [
+													0,
+													0.75,
+													0
+												],
+												"rotate_rider_by": 180
+											}
+										],
+										"seat_count": 1,
+										"controlling_seat": 1,
+										"crouching_skip_interact": false
+									},
+									"minecraft:behavior.controlled_by_player": {},
+									"minecraft:horse.jump_strength": {
+										"value": 0
+									},
+									"minecraft:can_power_jump": {},
+									"minecraft:input_ground_controlled": {},
+									"minecraft:scale": {
+										"value": 1.5
+									},
+									"minecraft:collision_box": {
+										"width": 1,
+										"height": 1
+									},
+									"minecraft:flying_speed": {
+										"value": 2
+									},
+									"minecraft:movement": {
+										"value": 1
+									},
+									"minecraft:movement.fly": {}
+								},
+								"key": "minecraft:input_ground_controlled",
+								"is_minified": true,
+								"children": {}
+							},
+							{
+								"key": "minecraft:scale",
+								"is_minified": true,
+								"children": {
+									"value": 1.5
+								}
+							},
+							{
+								"key": "minecraft:collision_box",
+								"is_minified": true,
+								"children": {
+									"width": 1,
+									"height": 1
+								}
+							},
+							{
+								"open": {
+									"minecraft:physics": {
+										"has_gravity": true,
+										"has_collision": true
+									},
+									"minecraft:pushable": {
+										"is_pushable": false
+									},
+									"minecraft:push_through": {
+										"value": 1
+									},
+									"minecraft:boss": {
+										"hud_range": 20,
+										"name": "Dark Phoenix",
+										"should_darken_sky": true
+									},
+									"minecraft:health": {
+										"value": 20
+									},
+									"minecraft:rideable": {
+										"seats": [
+											{
+												"max_rider_count": 1,
+												"position": [
+													0,
+													0.75,
+													0
+												],
+												"rotate_rider_by": 180
+											}
+										],
+										"seat_count": 1,
+										"controlling_seat": 1,
+										"crouching_skip_interact": false
+									},
+									"minecraft:behavior.controlled_by_player": {},
+									"minecraft:horse.jump_strength": {
+										"value": 0
+									},
+									"minecraft:can_power_jump": {},
+									"minecraft:input_ground_controlled": {},
+									"minecraft:scale": {
+										"value": 1.5
+									},
+									"minecraft:collision_box": {
+										"width": 1,
+										"height": 1
+									},
+									"minecraft:flying_speed": {
+										"value": 2
+									},
+									"minecraft:movement": {
+										"value": 1
+									},
+									"minecraft:movement.fly": {}
+								},
+								"key": "minecraft:flying_speed",
+								"is_minified": true,
+								"children": {
+									"value": 2
+								}
+							},
+							{
+								"open": {
+									"minecraft:physics": {
+										"has_gravity": true,
+										"has_collision": true
+									},
+									"minecraft:pushable": {
+										"is_pushable": false
+									},
+									"minecraft:push_through": {
+										"value": 1
+									},
+									"minecraft:boss": {
+										"hud_range": 20,
+										"name": "Dark Phoenix",
+										"should_darken_sky": true
+									},
+									"minecraft:health": {
+										"value": 20
+									},
+									"minecraft:rideable": {
+										"seats": [
+											{
+												"max_rider_count": 1,
+												"position": [
+													0,
+													0.75,
+													0
+												],
+												"rotate_rider_by": 180
+											}
+										],
+										"seat_count": 1,
+										"controlling_seat": 1,
+										"crouching_skip_interact": false
+									},
+									"minecraft:behavior.controlled_by_player": {},
+									"minecraft:horse.jump_strength": {
+										"value": 0
+									},
+									"minecraft:can_power_jump": {},
+									"minecraft:input_ground_controlled": {},
+									"minecraft:scale": {
+										"value": 1.5
+									},
+									"minecraft:collision_box": {
+										"width": 1,
+										"height": 1
+									},
+									"minecraft:flying_speed": {
+										"value": 2
+									},
+									"minecraft:movement": {
+										"value": 1
+									},
+									"minecraft:movement.fly": {}
+								},
+								"key": "minecraft:movement",
+								"is_minified": true,
+								"children": {
+									"value": 1
+								}
+							},
+							{
+								"open": {
+									"minecraft:physics": {
+										"has_gravity": true,
+										"has_collision": true
+									},
+									"minecraft:pushable": {
+										"is_pushable": false
+									},
+									"minecraft:push_through": {
+										"value": 1
+									},
+									"minecraft:boss": {
+										"hud_range": 20,
+										"name": "Dark Phoenix",
+										"should_darken_sky": true
+									},
+									"minecraft:health": {
+										"value": 20
+									},
+									"minecraft:rideable": {
+										"seats": [
+											{
+												"max_rider_count": 1,
+												"position": [
+													0,
+													0.75,
+													0
+												],
+												"rotate_rider_by": 180
+											}
+										],
+										"seat_count": 1,
+										"controlling_seat": 1,
+										"crouching_skip_interact": false
+									},
+									"minecraft:behavior.controlled_by_player": {},
+									"minecraft:horse.jump_strength": {
+										"value": 0
+									},
+									"minecraft:can_power_jump": {},
+									"minecraft:input_ground_controlled": {},
+									"minecraft:scale": {
+										"value": 1.5
+									},
+									"minecraft:collision_box": {
+										"width": 1,
+										"height": 1
+									},
+									"minecraft:flying_speed": {
+										"value": 2
+									},
+									"minecraft:movement": {
+										"value": 1
+									},
+									"minecraft:movement.fly": {}
+								},
+								"key": "minecraft:movement.fly",
+								"is_minified": true,
+								"children": {}
+							}
+						]
+					},
+					{
+						"key": "component_groups",
+						"children": [
+							{
+								"open": {
+									"despawn": {
+										"minecraft:instant_despawn": {}
+									}
+								},
+								"key": "despawn",
+								"is_minified": true,
+								"children": {
+									"minecraft:instant_despawn": {}
+								}
+							}
+						]
+					},
+					{
+						"open": {
+							"description": {
+								"identifier": "varo:phoenix",
+								"is_spawnable": true,
+								"is_summonable": true,
+								"is_experimental": false
+							},
+							"components": {
+								"minecraft:physics": {
+									"has_gravity": true,
+									"has_collision": true
+								},
+								"minecraft:pushable": {
+									"is_pushable": false
+								},
+								"minecraft:push_through": {
+									"value": 1
+								},
+								"minecraft:boss": {
+									"hud_range": 20,
+									"name": "Dark Phoenix",
+									"should_darken_sky": true
+								},
+								"minecraft:health": {
+									"value": 20
+								},
+								"minecraft:rideable": {
+									"seats": [
+										{
+											"max_rider_count": 1,
+											"position": [
+												0,
+												0.75,
+												0
+											],
+											"rotate_rider_by": 180
+										}
+									],
+									"seat_count": 1,
+									"controlling_seat": 1,
+									"crouching_skip_interact": false
+								},
+								"minecraft:behavior.controlled_by_player": {},
+								"minecraft:horse.jump_strength": {
+									"value": 0
+								},
+								"minecraft:can_power_jump": {},
+								"minecraft:input_ground_controlled": {},
+								"minecraft:scale": {
+									"value": 1.5
+								},
+								"minecraft:collision_box": {
+									"width": 1,
+									"height": 1
+								},
+								"minecraft:flying_speed": {
+									"value": 2
+								},
+								"minecraft:movement": {
+									"value": 1
+								},
+								"minecraft:movement.fly": {}
+							},
+							"component_groups": {
+								"despawn": {
+									"minecraft:instant_despawn": {}
+								}
+							},
+							"events": {
+								"despawn": {
+									"add": {
+										"component_groups": [
+											"despawn"
+										]
+									}
+								}
+							}
+						},
+						"key": "events",
+						"children": [
+							{
+								"open": {
+									"despawn": {
+										"add": {
+											"component_groups": [
+												"despawn"
+											]
+										}
+									}
+								},
+								"key": "despawn",
+								"children": [
+									{
+										"open": {
+											"add": {
+												"component_groups": [
+													"despawn"
+												]
+											}
+										},
+										"key": "add",
+										"children": [
+											{
+												"open": {
+													"component_groups": [
+														"despawn"
+													]
+												},
+												"key": "component_groups",
+												"is_minified": true,
+												"children": [
+													"despawn"
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}

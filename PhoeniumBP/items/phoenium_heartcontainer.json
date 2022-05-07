@@ -1,3 +1,4 @@
+//bridge-file-version: #3
 {
 	"format_version": "1.17.0",
 	"minecraft:item": {
@@ -56,8 +57,8 @@
 						"run_command": {
 							"command": [
 								"clear @s varo:phoenium_heartcontainer 0 1",
-								"effect @s health_boost 999999 2 true",
-								"tell @s §4I consumed a §4 Phoenium Heartcontainer §4and gained §la additional 2 §r§4Hearts.",
+								"event entity @s health3",
+								"tellraw @s {\"rawtext\":[{\"text\":\"You consumed a §4 Phoenium Heartcontainer §4and gained §la additional 2 §r§4Hearts.\"}]}",
 								"scoreboard players set @s hp 6"
 							]
 						},
@@ -67,14 +68,14 @@
 						"condition": "query.scoreboard('hp')>=6",
 						"run_command": {
 							"command": [
-								"tell @s I already consumed this..."
+								"tellraw @s {\"rawtext\":[{\"text\":\"I already consumed this...\"}]}"
 							]
 						}
 					},
 					{
 						"run_command": {
 							"command": [
-								"tell @s I need to consume the previos Heartcanister to use this one..."
+								"tellraw @s {\"rawtext\":[{\"text\":\"I need to consume the previos Heartcanister to use this one...\"}]}"
 							]
 						},
 						"condition": "query.scoreboard('hp')==2"
@@ -83,7 +84,7 @@
 						"condition": "query.scoreboard('hp')==0",
 						"run_command": {
 							"command": [
-								"tell @s I need to consume the previos Heartcanister to use this one..."
+								"tellraw @s {\"rawtext\":[{\"text\":\"I need to consume the previos Heartcanister to use this one...\"}]}"
 							]
 						}
 					}

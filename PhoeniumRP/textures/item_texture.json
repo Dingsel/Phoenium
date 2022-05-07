@@ -151,6 +151,12 @@
 		},
 		"varo_warp_wand": {
 			"textures": "textures/items/warp_wand"
+		},
+		"varo_mana_amulet": {
+			"textures": "textures/items/mana_amulet"
+		},
+		"varo_upgrade": {
+			"textures": "textures/items/upgrade"
 		}
 	}
 }

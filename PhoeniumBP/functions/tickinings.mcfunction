@@ -1,4 +1,4 @@
-#bridge-file-version: #3
+#bridge-file-version: #10
 kill @e[name=Xray,type=item]
 scoreboard players remove @a[tag=light,scores={light=!0}] light 1
 effect @a[scores={light=0}] wither 11 1 true
@@ -45,4 +45,12 @@ execute @e[type=varo:eventtimer,scores={event=456000}] ~ ~ ~ scoreboard players 
 execute @e[type=varo:eventtimer,scores={event=480000}] ~ ~ ~ tellraw @a {"rawtext":[{"text":"§eThe Light Event is dissapearing!"}]}
 execute @e[type=varo:eventtimer,scores={event=480000}] ~ ~ ~ tag * remove light
 execute @e[type=varo:eventtimer,scores={event=480000}] ~ ~ ~ scoreboard players set * light 2500
+ 
+ 
+effect @a[hasItem={item=varo:iron_gloves}] strength 11 0 true
+effect @a[hasItem={item=varo:phoenium_gloves}] strength 11 1 true
+effect @a[hasItem={item=varo:shieldingshield}] resistance 11 0 true
+effect @a[hasItem={item=varo:phoenium_shieldingshield}] resistance 11 1 true
+effect @a[hasItem={item=varo:feather_of_swiftness}] speed 11 0 true
+effect @a[hasItem={item=varo:phoenix_feather}] speed 11 1 true
  

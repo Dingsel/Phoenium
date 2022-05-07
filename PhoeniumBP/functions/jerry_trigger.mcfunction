@@ -1,3 +1,4 @@
+#bridge-file-version: #0
 scoreboard players remove @s mana 1
 playsound mob.villager.haggle @s
-msg @s This Abillity does NOTHING and is USELESS.
+tellraw @s {"rawtext":[{"text":"This Abillity does NOTHING and is USELESS."}]}

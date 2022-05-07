@@ -1,0 +1,25 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "varo:phoenium_leaves",
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:destroy_time": 0.2,
+			"minecraft:explosion_resistance": 1,
+			"minecraft:map_color": "#ffffff",
+			"minecraft:block_light_emission": 0,
+			"minecraft:block_light_absorption": 1,
+			"minecraft:material_instances": {
+				"*": {
+					"render_method": "alpha_test",
+					"ambient_occlusion": false,
+					"face_dimming": false
+				}
+			}
+		},
+		"events": {}
+	}
+}
